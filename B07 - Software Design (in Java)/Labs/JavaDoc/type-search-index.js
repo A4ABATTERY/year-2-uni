@@ -1,0 +1,1 @@
+typeSearchIndex = [{"p":"lab3","l":"Lab3"}]

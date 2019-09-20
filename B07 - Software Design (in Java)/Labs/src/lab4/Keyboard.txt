@@ -1,0 +1,9 @@
+ClassName: Keyboard
+Parent class: NA
+Subclass: NA
+
+Responsibilities:
+	- Take in User Input
+
+Collaborators:
+	- Laptop

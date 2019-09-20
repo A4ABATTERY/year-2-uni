@@ -1,0 +1,15 @@
+Classes:
+
+Laptop (laptop class is kind of like the OS)
+Keyboard
+Trackpad (touchpad)
+Screen
+Microphone
+HdmiO
+VgaO
+Network Card
+Storage (HDD/SSD)
+CPU
+IntegratedGPU
+RAM
+webcam

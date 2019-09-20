@@ -1,0 +1,10 @@
+class name: webcam
+parent: NA
+subclass: NA
+
+Responsibiltiies:
+	- Take in video input (1s and 0s) and pass it Laptop. Which will then pass it to GPU to be encoded.
+
+Collaborators:
+	- Laptop
+

@@ -1,0 +1,256 @@
++++ ASSIGNMENT 3 MARK DETAIL +++
+Your mark out of 10 is: [9:/10]
+
+This assignment is marked by TA (name, email):
+Bryan Tam, bryan.tam@mail.utoronto.ca
+
+DEDUCTIONS:
+[ ] -6 for code not being able to compile (even after the removal of the test directory)
+[ ] -2 for driver.CfilteringDriver or the main function being misplaced or renamed
+[ ] -1 for code not being able to compile without the removal of the test directory
+
+
+SECTION 1: DESIGN (8 Marks)
+
+==== Report ==== (1 Mark)
+[ ] -1 for missing report
+[ ] -0.5 for report lacking in content
+
+==== Testing ==== (2 Marks)
+[ ] -2 for having no unit tests
+[ ] -1 for missing some test cases for public methods
+[ ] -0.5 for inadequate tests (e.g. using lots of print statements rather than assert; not testing edge case)
+
+==== Design pattern ==== (5 Marks)
+[ ] -5 for did not redesign from A0
+[ ] -1 for not using Iterator Design Pattern
+[x] -0.5 for not using Exceptions
+[ ] -1 for not following Single Responsibility Principle (SRP)
+[ ] -1 for not using Interfaces (both newly defined interfaces and use of standard library built-in interfaces (e.g. Iterator) are acceptable)
+
+
+SECTION 2: CORRECTNESS (2 Marks)
+4 Test Cases, 0.5 mark each
+* Case 1:
+Deduction: [ ] -0.5 for incorrect result
+
+Input:
+input1.txt
+
+Content of input1.txt:
+4
+5
+
+1 1 1 1 1
+1 1 1 1 1
+1 1 1 1 1
+1 1 1 1 1
+
+Expected Output:
+Enter the name of input file?
+
+user_user_matrix is:
+[1.0000, 1.0000, 1.0000, 1.0000]
+[1.0000, 1.0000, 1.0000, 1.0000]
+[1.0000, 1.0000, 1.0000, 1.0000]
+[1.0000, 1.0000, 1.0000, 1.0000]
+
+The most similar pairs of users from above user_user_matrix are:
+User1 and User2
+User1 and User3
+User1 and User4
+User2 and User3
+User2 and User4
+User3 and User4
+with similarity score of 1.0000
+
+The most dissimilar pairs of users from above user_user_matrix are:
+User1 and User2
+User1 and User3
+User1 and User4
+User2 and User3
+User2 and User4
+User3 and User4
+with similarity score of 1.0000
+
+Actual Output:
+Enter the name of the input file:
+
+User * User matrix:
+1.0000 1.0000 1.0000 1.0000
+1.0000 1.0000 1.0000 1.0000
+1.0000 1.0000 1.0000 1.0000
+1.0000 1.0000 1.0000 1.0000
+
+The most similar pairs of users are:
+User 1 and user 2: Share a score of 1.0000
+User 1 and user 3: Share a score of 1.0000
+User 1 and user 4: Share a score of 1.0000
+User 2 and user 3: Share a score of 1.0000
+User 2 and user 4: Share a score of 1.0000
+User 3 and user 4: Share a score of 1.0000
+
+The most Dissimilar pairs of users are:
+User 1 and user 2: Share a score of 1.0000
+User 1 and user 3: Share a score of 1.0000
+User 1 and user 4: Share a score of 1.0000
+User 2 and user 3: Share a score of 1.0000
+User 2 and user 4: Share a score of 1.0000
+User 3 and user 4: Share a score of 1.0000
+
+
+
+
+* Case 2:
+Deduction: [ ] -0.5 for incorrect result
+
+Input:
+input2.txt
+
+Content of input2.txt:
+4
+5
+
+1 1 1 1 1
+1 1 1 1 1
+5 5 5 5 5
+5 5 5 5 5
+
+
+Expected Output:
+Enter the name of input file?
+
+user_user_matrix is:
+[1.0000, 1.0000, 0.1006, 0.1006]
+[1.0000, 1.0000, 0.1006, 0.1006]
+[0.1006, 0.1006, 1.0000, 1.0000]
+[0.1006, 0.1006, 1.0000, 1.0000]
+
+The most similar pairs of users from above user_user_matrix are:
+User1 and User2
+User3 and User4
+with similarity score of 1.0000
+
+The most dissimilar pairs of users from above user_user_matrix are:
+User1 and User3
+User1 and User4
+User2 and User3
+User2 and User4
+with similarity score of 0.1006
+
+
+
+Actual Output:
+Enter the name of the input file:
+
+User * User matrix:
+1.0000 1.0000 0.1006 0.1006
+1.0000 1.0000 0.1006 0.1006
+0.1006 0.1006 1.0000 1.0000
+0.1006 0.1006 1.0000 1.0000
+
+The most similar pairs of users are:
+User 1 and user 2: Share a score of 1.0000
+User 3 and user 4: Share a score of 1.0000
+
+The most Dissimilar pairs of users are:
+User 1 and user 3: Share a score of 0.1006
+User 1 and user 4: Share a score of 0.1006
+User 2 and user 3: Share a score of 0.1006
+User 2 and user 4: Share a score of 0.1006
+
+
+
+
+* Case 3:
+Deduction: [ ] -0.5 for incorrect result
+
+Input:
+input3.txt
+
+Content of input3.txt:
+5
+5
+
+1 1 3 1 1
+5 5 5 5 5
+5 5 5 5 5
+5 5 5 5 5
+1 1 3 1 1
+
+
+Expected Output:
+Enter the name of input file?
+
+user_user_matrix is:
+[1.0000, 0.1082, 0.1082, 0.1082, 1.0000]
+[0.1082, 1.0000, 1.0000, 1.0000, 0.1082]
+[0.1082, 1.0000, 1.0000, 1.0000, 0.1082]
+[0.1082, 1.0000, 1.0000, 1.0000, 0.1082]
+[1.0000, 0.1082, 0.1082, 0.1082, 1.0000]
+
+The most similar pairs of users from above user_user_matrix are:
+User1 and User5
+User2 and User3
+User2 and User4
+User3 and User4
+with similarity score of 1.0000
+
+The most dissimilar pairs of users from above user_user_matrix are:
+User1 and User2
+User1 and User3
+User1 and User4
+User2 and User5
+User3 and User5
+User4 and User5
+with similarity score of 0.1082
+
+
+Actual Output:
+Enter the name of the input file:
+
+User * User matrix:
+1.0000 0.1082 0.1082 0.1082 1.0000
+0.1082 1.0000 1.0000 1.0000 0.1082
+0.1082 1.0000 1.0000 1.0000 0.1082
+0.1082 1.0000 1.0000 1.0000 0.1082
+1.0000 0.1082 0.1082 0.1082 1.0000
+
+The most similar pairs of users are:
+User 1 and user 5: Share a score of 1.0000
+User 2 and user 3: Share a score of 1.0000
+User 2 and user 4: Share a score of 1.0000
+User 3 and user 4: Share a score of 1.0000
+
+The most Dissimilar pairs of users are:
+User 1 and user 2: Share a score of 0.1082
+User 1 and user 3: Share a score of 0.1082
+User 1 and user 4: Share a score of 0.1082
+User 2 and user 5: Share a score of 0.1082
+User 3 and user 5: Share a score of 0.1082
+User 4 and user 5: Share a score of 0.1082
+
+
+
+
+* Case 4:
+Deduction: [x] -0.5 for incorrect result
+null is not a proper error prompt
+
+Input:
+input4.txt
+
+Content of input4.txt:
+4
+5
+
+1 1 1 1
+1 1 1 1
+5 5 5 5
+5 5 5 5
+
+Expected output:
+Invalid input (or similar error)
+
+Actual Output:
+Enter the name of the input file: null

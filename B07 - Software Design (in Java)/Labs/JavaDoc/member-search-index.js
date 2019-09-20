@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"lab3","c":"Lab3","l":"Lab3()"},{"p":"lab3","c":"Lab3","l":"main(String[])","url":"main-java.lang.String:A-"},{"p":"lab3","c":"Lab3","l":"reverseSentence(String)","url":"reverseSentence-java.lang.String-"},{"p":"lab3","c":"Lab3","l":"reverseString(String)","url":"reverseString-java.lang.String-"}]

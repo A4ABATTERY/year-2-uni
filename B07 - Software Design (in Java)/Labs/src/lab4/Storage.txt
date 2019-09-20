@@ -1,0 +1,14 @@
+Class name: Storage
+Parent class: RAM
+Subclass: NA
+
+Responsibility:
+	- Store data 
+	- Recall data 
+	- Push instructions to RAM
+	- Have a small portion of Storage act as RamSwap (ie when computer goes to sleep, or RAM is full)
+Collaborators
+	- RAM
+	- CPU
+
+
