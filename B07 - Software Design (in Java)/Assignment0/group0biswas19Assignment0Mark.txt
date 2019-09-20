@@ -1,0 +1,265 @@
++++ASSIGNMENT0 MARK DETAIL+++
++++This assignment is marked by:+++
+TA (name, email): Nagarjun Ratnesh, nagarjun.ratnesh@mail.utoronto.ca
+Contact the TA directly if you have any questions on the marking
+Please refer to the course syllabus for remarking window
+Your mark out of 10 is: [8.5:/10] 
+
+
+
+PART 1) +++SVN CHECKOUT ON YOUR ASSIGNMENT0+++
+A    Assignment0/bin
+A    Assignment0/bin/a0
+A    Assignment0/bin/driver
+A    Assignment0/src
+A    Assignment0/src/a0
+A    Assignment0/src/driver
+A    Assignment0/bin/a0/Cfiltering.class
+A    Assignment0/bin/a0/Rearranging.class
+A    Assignment0/bin/driver/CfilteringDriver.class
+A    Assignment0/src/a0/Cfiltering.java
+A    Assignment0/src/a0/Rearranging.java
+A    Assignment0/src/driver/CfilteringDriver.java
+A    Assignment0/input1.txt
+A    Assignment0/input2.txt
+Checked out revision 23.
+
+
+
+PART 2) +++SVN COMMIT LOGS ARE+++
+------------------------------------------------------------------------
+r21 | biswas19@UTORONTO.CA | 2018-09-26 14:21:15 -0400 (Wed, 26 Sep 2018) | 1 line
+
+I FORGOT TO ADD THE HONOR CODE TO MY ASSIGNMENT(in Rearranging.java), IT IS THERE NOW. I understand if i am marked down, or do not recieve a mark for this assignment.
+------------------------------------------------------------------------
+r16 | biswas19@UTORONTO.CA | 2018-09-25 21:28:52 -0400 (Tue, 25 Sep 2018) | 1 line
+
+Removed all extra print statments taht i used for debugging, and made output more user friendly
+------------------------------------------------------------------------
+r15 | biswas19@UTORONTO.CA | 2018-09-25 20:33:04 -0400 (Tue, 25 Sep 2018) | 1 line
+
+last touches on Rearranging.java and Cfiltering
+------------------------------------------------------------------------
+r14 | biswas19@UTORONTO.CA | 2018-09-24 13:39:26 -0400 (Mon, 24 Sep 2018) | 1 line
+
+finished writing all functions. Some functions are now re-written to only look at one part of the User-User Matrix. This is due to to the fact that this particular matrix is symmetrical. Hence, only 1/3 to 2/3 of the matrix needs to be read/printed.
+------------------------------------------------------------------------
+r13 | biswas19@UTORONTO.CA | 2018-09-22 20:13:43 -0400 (Sat, 22 Sep 2018) | 1 line
+
+wrote and optimized findAndprintMostSimilarPair(). Re-wrote calcUserUserMatrix() to be more optimized, I recalled that the matix being generated is symmetric. Hence i was able to reduce the number of calls to takeDiffNsquare().
+------------------------------------------------------------------------
+r12 | biswas19@UTORONTO.CA | 2018-09-22 18:44:38 -0400 (Sat, 22 Sep 2018) | 1 line
+
+Worte populateUserMovieMatrix(). Also fixed svn commit and save issues on my system. I just needed to log off and log back on
+------------------------------------------------------------------------
+r11 | biswas19@UTORONTO.CA | 2018-09-22 18:23:42 -0400 (Sat, 22 Sep 2018) | 1 line
+
+im having saving and svn commit issues
+------------------------------------------------------------------------
+r10 | biswas19@UTORONTO.CA | 2018-09-22 15:16:38 -0400 (Sat, 22 Sep 2018) | 1 line
+
+wrote function call populateUserMovieMatrix(i, j, temp);
+------------------------------------------------------------------------
+r9 | biswas19@UTORONTO.CA | 2018-09-22 13:48:41 -0400 (Sat, 22 Sep 2018) | 1 line
+
+wrote Non-defualt copy-constructor
+------------------------------------------------------------------------
+r8 | biswas19@UTORONTO.CA | 2018-09-20 00:29:15 -0400 (Thu, 20 Sep 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r6 | attarwal@UTORONTO.CA | 2018-09-19 12:15:55 -0400 (Wed, 19 Sep 2018) | 1 line
+
+deleting src/test by instructor
+------------------------------------------------------------------------
+r4 | attarwal@UTORONTO.CA | 2018-09-18 04:37:02 -0400 (Tue, 18 Sep 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r3 | attarwal@UTORONTO.CA | 2018-09-18 04:37:01 -0400 (Tue, 18 Sep 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r2 | attarwal@UTORONTO.CA | 2018-09-18 04:37:00 -0400 (Tue, 18 Sep 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r1 | Markus | 2018-09-15 12:36:38 -0400 (Sat, 15 Sep 2018) | 1 line
+
+
+------------------------------------------------------------------------
+Marks Deductions here: +++ No Marks deducted for this section. +++ 
+
+
+
+PART 3) +++FOLLOWING LINES ARE GREATER THAN 80 CHARACTERS+++
+//	System.out.println("num of User: " + numberOfUsers + "  num of mov: " + numberOfMovies);
+//	System.out.println("dim of usrMovMatrix: " + userMovieMatrix.length + userMovieMatrix[3].length);
+	of two users. The 'movie rating' array of each user (second dimension of userMovieMatrix[][])
+	int size; // since the array is a square, i dont need to use seperate vars for rows and cols
+                if((score == userUserMatrix[i][j]) && (i != j) && !((i == a && j == b) || (i == b && j ==a)) ){
+                System.out.print("There are " + itr + " pairs who share the same score");
+               // System.out.println("run " + numOfRuns + " users are : " + (i+1) + " " + (j+1));
+               // System.out.println("run " + numOfRuns + " users are : " + (i+1) + " " + (j+1));
+Marks Deductions here: +++ No Marks deducted for this section. +++
+
+
+
+PART 4) +++TEST FOLDER WITH TEST FILES IN IT?+++
+svn: E155010: The node '/Users/abbas/Documents/CSC207/Summer2015207/Assignment0/Marking/biswas19/Assignment0/test' was not found.
+Marks Deductions here: +++ 1 Mark deducted for this section. No test files found +++
+
+
+
+PART 5) +++HONOR CODE?+++
+// **********************************************************
+// Assignment0: Cfiltering
+// UTORID: biswas19
+// UT Student #:10054403449
+// Author:Arunav Biswas
+//
+//
+// Honor Code: I pledge that this program represents my own
+// program code and that I have coded on my own. I received
+// help from no one in designing and debugging my program.
+// I have also read the plagiarism section in the course info
+// sheet of CSC B07 and understand the consequences. In this semester
+// we will select any three of your assignments from total of 5 and run it
+// for plagiarism check. 
+Marks Deductions here: +++ No Marks deducted for this section. +++ 
+
+
+
+PART 6) +++IDE FILES+++
+Marks Deductions here: +++ No Marks deducted for this section. +++ 
+
+
+
+PART 7) +++STATIC FUNCTIONS IN YOUR CODE+++
+Marks Deductions here: +++ No Marks deducted for this section. +++
+
+
+
+PART 8) +++COMMENTS IN cFiltering.java
+Marks Deductions here: +++ No Marks deducted for this section. +++
+// for plagiarism check. 
+// *********************************************************
+  // this is a 2d matrix i.e. user*movie
+  // this is a 2d matrix i.e. user*movie
+    // this is 2d matrix of size 1*1
+    // this is 2d matrix of size 1*1
+//	System.out.println("num of User: " + numberOfUsers + "  num of mov: " + numberOfMovies);
+//	System.out.println("dim of usrMovMatrix: " + userMovieMatrix.length + userMovieMatrix[3].length);
+//	System.out.print("row: " + rowNumber);
+//	System.out.print("  col: " + columnNumber);
+//	System.out.println("  Val: " + ratingValue);
+	// int a[] is the user 1, int b[] is user 2.
+	assert(a.length == b.length); // just a little sanity check for myself.
+	int size; // since the array is a square, i dont need to use seperate vars for rows and cols
+//	System.out.println("user to user: " + returnValue);
+//	rows = userMovieMatrix.length;
+//	cols = userMovieMatrix[0].length;
+	//		System.out.print(userMovieMatrix[i][j] + " " );
+        int numOfUniquePairs = ((size - 1) * size) / 2; // (nCr);
+        int itr = 0; // for the two arrays iArr, and jArr;
+//                    System.out.println("run " + (itr+1));
+   // int numOfRuns  = 0; // Just used for debugging
+	int iTemp, jTemp; // These two vals will store the users who match 
+	float temp = 0; iTemp = jTemp = 0; // initialization of vars;
+		for(int j = 1 + i; j < size; j++){  // j=1+i because the matrix is always symmetric
+						   // it just make the program faster
+                //numOfRuns ++;
+               // System.out.println("run " + numOfRuns + " users are : " + (i+1) + " " + (j+1));
+	int iTemp, jTemp;// int numOfRuns = 0;
+                // Array is all the same
+               // numOfRuns ++;
+               // System.out.println("run " + numOfRuns + " users are : " + (i+1) + " " + (j+1));
+
+
+
+PART 9) +++COMPILING YOUR CODE+++
+Marks Deductions here: +++ No Marks deducted for this section. +++
+
+
+
++++RUNNING YOUR CODE+++
+PART 10) +++RUNNING TESTCASE1+++
+Marks Deductions here: +++ 0.5 Mark deducted for this section. +++
+Enter the name of input file? 
+1.0000 1.0000 1.0000 1.0000 
+1.0000 1.0000 1.0000 1.0000 
+1.0000 1.0000 1.0000 1.0000 
+1.0000 1.0000 1.0000 1.0000 
+The most similar pair of users are user 1 and user 2. Their similarity score is 1.0000.
+There are 5 pairs who share the same score(1.0000).
+User 1 and user 3
+User 1 and user 4
+User 2 and user 3
+User 2 and user 4
+User 3 and user 4
+The most dissimilar pair of users are user 1 and user 2. Their similarity score is 1.0000.
+There are 5 pairs who share the same score(1.0000).
+User 1 and user 3
+User 1 and user 4
+User 2 and user 3
+User 2 and user 4
+User 3 and user 4
+
+
+
+PART 11) +++RUNNING TESTCASE2+++
+Marks Deductions here: +++ 0.5 Mark deducted for this section. +++
+Enter the name of input file? 
+1.0000 1.0000 0.1006 0.1006 
+1.0000 1.0000 0.1006 0.1006 
+0.1006 0.1006 1.0000 1.0000 
+0.1006 0.1006 1.0000 1.0000 
+The most similar pair of users are user 1 and user 2. Their similarity score is 1.0000.
+There are 1 pairs who share the same score(1.0000).
+User 3 and user 4
+The most dissimilar pair of users are user 1 and user 3. Their similarity score is 0.1006.
+There are 3 pairs who share the same score(0.1006).
+User 1 and user 4
+User 2 and user 3
+User 2 and user 4
+
+
+
+PART 12) +++RUNNING TESTCASE3+++
+Marks Deductions here: +++ 0.5 Mark deducted for this section. +++
+Enter the name of input file? 
+1.0000 0.1082 0.1082 0.1082 1.0000 
+0.1082 1.0000 1.0000 1.0000 0.1082 
+0.1082 1.0000 1.0000 1.0000 0.1082 
+0.1082 1.0000 1.0000 1.0000 0.1082 
+1.0000 0.1082 0.1082 0.1082 1.0000 
+The most similar pair of users are user 1 and user 5. Their similarity score is 1.0000.
+There are 3 pairs who share the same score(1.0000).
+User 2 and user 3
+User 2 and user 4
+User 3 and user 4
+The most dissimilar pair of users are user 1 and user 2. Their similarity score is 0.1082.
+There are 5 pairs who share the same score(0.1082).
+User 1 and user 3
+User 1 and user 4
+User 2 and user 5
+User 3 and user 5
+User 4 and user 5
+
+
+
+Part 10) +++Working on Problem Rearranging+++
+Marks Deductions here: +++ No Marks deducted for this section. +++
+FOUND: Rearranging.java and now compiling
+Note: ./src/a0/RearrangingTest.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
++++RUNNING TESTCASES+++ on Rearranging
+JUnit version 4.12
+.1
+.0
+
+Time: 0.013
+
+OK (2 tests)
+
+Part 11) +++Does your code run in linear time and not use a new array+++? Yes
