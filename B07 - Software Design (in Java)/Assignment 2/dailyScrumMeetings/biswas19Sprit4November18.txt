@@ -1,0 +1,17 @@
+File Name:  biswas19Sprint5November18.txt
+Author:     Arunav Biswas
+UTor ID:    Biswas19
+Date/Time:  October20th, 2018, @ 11:59PM
+
+What did I work on in the last three days?
+    - Work on refactoring all our code to work with the new RetType interface.
+    - Worked on fixing errors.
+    
+What do I plan to work on in the next three days?
+    - ListDirectory (Needs to be reworked)
+    - Tree (Blocked by ListDirectory)
+    - FindFileObj class needs to be created.
+
+Am I Blocked on anything?
+    - JShellFileSystem needs to be iterable.
+

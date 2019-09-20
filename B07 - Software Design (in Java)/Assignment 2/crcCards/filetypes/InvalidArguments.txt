@@ -1,0 +1,8 @@
+Class name: InvalidArguments
+Parent: ArgError
+Child: NA
+
+Responsibility:
+- Define invalid arguments
+
+

@@ -1,0 +1,15 @@
+What did I work on in the last three days?
+    - finished fixing all the errors/bugs introduced from the new design
+    - reworked Directory and FileObject for mv and cp commands
+    - Started on mv and cp commands
+    - we decided to move test classes for later, because it seems a little more
+      complicated then we initially thought
+    
+What do I plan to work on in the next three days?
+    - finish cp and mv
+    - finish all the testclasses after getting advice from the prof
+    
+Am I blocked on anything?
+    - Could not complete testclasses because i am not entirely sure if I should be using
+      a mockfilesystem to easily set up each of the testclasses. But im not sure how that
+      would work.

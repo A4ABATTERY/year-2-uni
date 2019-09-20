@@ -1,0 +1,13 @@
+Class name: Move
+Parent: Command
+Child:NA
+
+Responsibilities:
+    - Move fileObject from one directory to another
+Collaborators
+- Directory
+- FileObject
+- JShellFileSystem
+- InvalidArguments
+- InvalidNumberOfArgs
+- PathNotFound

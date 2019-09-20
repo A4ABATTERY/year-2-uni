@@ -1,0 +1,12 @@
+What did I work on in the last three days?
+    - Finished Directory and ChangeDirectory with error handling and most documentation
+    - Re-organized the filesystem and added a parent FileObject Class
+
+What do I plan to work in the next three days?
+    - Delegate tasks and finish sprint 2 backlog tomorrow 
+    - Complete crcCards and finish up documentation
+    - Finish MakeDirectory using pushd and popd commands
+
+Am I blocked on anything?
+    - For MakeDirectory I decided to use the pushd and popd commands, which we have not done yet, 
+      but will do for the next sprint.(I am moving MakeDirectory to sprint2)

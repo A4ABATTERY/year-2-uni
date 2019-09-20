@@ -1,0 +1,14 @@
+a) What did I work on in the last three days?
+    - Fixed bugs for different commands due to change in system design
+    - Finished Javadocs and comments
+    - Integration test for output redirection
+
+b) What do I plan to work in the next three days?
+    - Create JUnit tests for both echo and output redirection methods
+    - Work on get URL command
+        - find suitable library to retrieve file from web
+        - code the whole command
+        - Make JUnit Test for GetFromURL.
+
+c) Am I blocked on anything?
+    - No

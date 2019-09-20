@@ -1,0 +1,84 @@
+//Sprint 3 Backlog
+October 31st to November7th (due date)
+
+Tasks from sprint1 and sprint2 that remain uncompleted/partially-completed:
+------------+---------------------------+-----------------------------------------------+
+   Tasks	|	  Peer responsible		|			Task/sub-tasks left					|
+------------+---------------------------+-----------------------------------------------+
+	 A		|		 ALL PEOPLE			| - To my knowledge, no one has fully completed	|
+			|							|	their crcCards.								|
+			|							| - We need to all complete crcCards and check	|
+			|							|	if Collaborators make sense.				|
+			|							|		- We will do this after the Concatenate	|
+			|							|		  class is done.						|
+------------+---------------------------+-----------------------------------------------|
+	B		|	 	 David Do			| - Check sprint 2								|
+------------+---------------------------+-----------------------------------------------+
+	J		|	 Subagan Kamaleswaran	| - We have changed how we are implementing this|
+			|							|		- Scroll down and check "New Tasks		|
+			|							|		  and/or Changed Tasks" section			|
+			|							|			- Please ask if things are still	|
+			|							|			  unclear.							|
+------------+---------------------------+-----------------------------------------------+
+	C)		|	Birathan Somasundaram	| - There were some errors/bugs revealed in		|
+			|							|	the demo.									|
+			|							|		- popd does not seem to work correctly	|
+			|							|		- Double check pushd.					|
+			|							|		- I (Arunav Biswas) will try an 'break'/|
+			|							|		  try and find more bugs with this class|
+------------+---------------------------+-----------------------------------------------+
+
+
+
+Old Tasks (Check previous sprints):
+	A) Start transferring crcCards from googleDrive to svn server
+			- Some files are either not transferred OR collaborators have changed.
+	B) A user may want to exit the program
+	J) A user may want to learn about what a command does. They may want to look at the manual.
+	C) Users navigating through complex file paths may want to keep track of where they are and 
+	   later navigate back. Essentially they'd be leaving a "Cookie trail" of sorts, which they can
+	   then follow back.
+			- There are just issues with popd. Double check pushd.
+New Tasks:
+	D) A user may want to quickly check the contents of a file without leaving the shell.
+
+
+Specific tasks to be accomplished:
+		*** The following tasks are old tasks whose assignment and taks-definition 
+			has not changed. Check sprint 2. ***
+			Previous tasks (that have not changed) include:
+				- Remainder of A)
+				- All of B)
+				- Remainder/fixing  C)
+
+		New Tasks and/or Changed tasks:
+			d-1) Make Concatenate class
+			d-2) add the class to HashMapCom
+			d-3) collaborate with File class.
+				d-2-1) Make sure to use the getter functions that are writting in File class.
+			d-4) Have cat work with and infinite number of files. 
+				 i.e. cat FILE_1 FILE_2 FILE_n....
+			j-1) Instead of using fileIO make a private static HashMap within the class.
+			j-2) map keywords (i.e. 'ls', 'mkdir', 'cd', etc...) to their respective 'Manual Strings'
+					*** NOTE: We are not using fileIO, we talked with our demo TA (Nagarjun)
+						He mentioned that we do not need to complicate things, "just use a hashmap" ***
+
+The tasks are assigned as follows:
+
+**** NOTE: Previous tasks are still assigned to the same people. Check previous sprint(s) ***
+
+User: David Do
+Tasks: All of D)
+
+User: Birathan Somasundaram
+Tasks: Tasks from before, check previous sprints
+				
+User: Subagan Kamaleswaran
+Tasks: Tasks from before, check previous sprints
+
+User Arunav Biswas
+Tasks: Tasks from before, check previous sprints
+	   Start reading through crcCards, make a map how stuff collaborates. Post on googleDirve.
+	   If there are concerns with crcCards just edit them.
+				
+				 

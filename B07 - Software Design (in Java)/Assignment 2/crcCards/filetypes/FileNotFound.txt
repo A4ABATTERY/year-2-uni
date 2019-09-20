@@ -1,0 +1,9 @@
+Class name: FileNotFound
+Parent: FileObjNotFound:
+Child NA
+
+Responsibility:
+- define file not found.
+
+
+

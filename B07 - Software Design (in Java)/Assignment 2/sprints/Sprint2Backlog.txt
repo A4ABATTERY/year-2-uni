@@ -1,0 +1,127 @@
+//Sprint 2 Backlog
+October 24th to October 30th
+
+Tasks from sprint 1 that were left uncompleted/partially-completed:
+----------+----------------------+----------------------------------------------+
+	Task	|   Peer responsible	|			Task/sub-tasks left				|		Remarks/notes to person reading
+------------+-----------------------+-------------------------------------------+
+	B		|		David Do		| - Making an exit class. (this may not be	|
+			|						|   needed).								|
+			|						|		- The decision of whether or not	|
+			|						|		  this needs to be completed remains|
+			|						|		  tentative.						|
+			|						|			- It is entirely possible that	|
+			|						|			  JShell could takes could		|
+			|						|			  take this function.			|
+			|						|			  Hence, the peer responsible	|
+			|						|			  would be Arunav Biswas		|
+------------+-----------------------+-------------------------------------------+
+	E		|  Subagan Kamaleswaran	| - (e-1) Making a PresentWorkingDirectory	|
+			|						|   class.									|
+			|						| - (e-2) Override execute()				|
+------------+-------------------------+-----------------------------------------+
+    F		|     Arunav Biswas		| - (f-2) handle for a specific path			|
+			|						| - (f-3) handle if no path/dir is passed	|
+			|						|	i.e. userInput = "$ ls"					|
+------------+-----------------------+-------------------------------------------+
+	G/H		|		David Do		| - Completion of the tasks are blocked by	|		Tasks G/H were put together due to them
+			|						|	the complettion of (F).					|		Being part of the same class
+			|						|		- Arunav Biswas needs to complete	|
+			|						|		  (F)								|
+			|						|		- Skeleton has been writing for G/H	|
+			|						|		  However, for any testing remains	|
+			|						|		  blocked							|
+------------+-----------------------+-------------------------------------------+
+	J		|  Subagan Kamaleswaran | - j-2)  For each possible command that	|
+			|						|	they user could enter. Make a string	|
+			|						|	that explains what it does and how to	|
+			|						|	use it properly.						|
+------------+-----------------------+-------------------------------------------+
+	I		| I (Arunav Biswas)		| Adding 'echo string' function to Echo		|
+			| forgot to assign the	| class.									|
+			| class	to someone.		|											|
+			| I take full			|											|
+			| responsibility.		|											|
+------------+-----------------------+-------------------------------------------+
+
+User Stories from Product Backlog:
+
+Old Tasks (Check previous sprint):
+	B) A user may want to exit the program.
+	E) Users may want to print the path of the current directory.
+	F) Users may be interested in viewing what files are currently in the current directory
+	   They might also want to files in the directory other than the one they are in.
+	G) A user may want to quickly append a string to a file without explicitly opening the file.
+	H) A user may want to clear all the contents and overwirte a file with new content.
+	J) A user may want to learn about what a command does. They may want to look at the manual.
+New Tasks:
+	A) Start transferring crcCards from googleDrive to svn server.
+		- **** NOTES TO PEERS ****
+			- THIS HAS TO BE DONE BY ALL GROUP MEMBERS.
+			- IT IS ADVISED THAT EVERYONE WRITES THE CRCCARD FOR THE CLASS THAT THEY WROTE.
+
+	C) Users navigating through complex files paths may want to keep track of where they are
+	   and then later navigate back. Essentially they'd be leaving a "Cookie trail" of sorts,
+	   which they can the follow back.
+	D) A user may want to know what they entered last. THis is basically just showing the user a list of
+	   commands that they entered in the past.
+	   - **** NOTE TO PEERS ****
+			- We should discuss the implementation of this.
+				- It technically could be part of JShell.
+				- Or it would be its own class, which then is called upon
+				  every time a user inputs something.
+
+
+
+Specific tasks to be accomplished:
+
+			*** All Previous tasks are still assigned and defined. Check Sprint 1. ***
+				Previous tasks include:
+					- All of B)
+					- ALl of E)
+					- part of F)
+					- part of G/H)
+					- All of I)
+					- All of J)
+
+
+	New Tasks:
+		a-1) transfer crcCards for JShell
+		a-2) transfer crcCard for ChangeDirectory
+		a-3) transfer crcCard for MakeDirectory
+		a-4) transfer crcCard for PresentWorkingDirectory
+		a-5) transfer crcCard for DirectoryStack
+		a-6) transfer crcCard for ListDirectory
+		a-7) transfer crcCard for History (wait for (d-1) to be completed first)
+		a-8) transfer crcCard for Echo
+		a-9) transfer crcCard for CommandManual
+		   *** Note to peers: Please feel free to add anything that I've missed ***
+		c-1) Make DirectoryStack class.
+		c-2) Start working on pushDirectory()
+		c-3) Start working on popDirectory()
+		c-4) Test.
+		c-5) Make sure popDirectory does not crash after the user enters 'cd ..' and then
+			 enters 'popd'
+			 (Ask Arunav if further clarification is needed)
+		d-1) Discuss with team members about how this class will be implemented
+				*** for (d-2) pick one.
+		d-2a) Make History class
+		d-2b) Modify JShell to take the have this functionality. (means that we do not
+			  need to create
+			  history class)
+		d-3) make sure to override toString().
+
+
+The tasks are assigned as follows:
+
+User: David Do
+Tasks: a-8) Whats left of G) Whats left of H) All of B)
+
+User: Birathan Somasundaram
+Tasks: a-2) a-3) a-5) All of C) (feel free to ask for help. DirectoryStack seems difficult)
+
+User: Subagan Kamaleswaran
+Tasks: a-4) a-7) a-9) All of J) All of E)
+
+User: Arunav Biswas
+Tasks: a-1) a-6) All of I) Part of F) All of D)

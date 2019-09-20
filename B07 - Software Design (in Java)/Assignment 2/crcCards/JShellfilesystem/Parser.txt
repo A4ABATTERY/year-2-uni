@@ -1,0 +1,13 @@
+Class name: Parser
+
+
+Responsibiltites:
+    - Parse user input
+    - Parse path names
+        - Split into dirName and pathName
+    - Check for invalid Chars
+
+
+Collaborators:
+    - Directory
+    - JShellFileSystem    

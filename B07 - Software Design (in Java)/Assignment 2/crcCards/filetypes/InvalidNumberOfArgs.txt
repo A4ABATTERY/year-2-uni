@@ -1,0 +1,9 @@
+Class name: InvalidNumberOfArgs
+Parent:ArgError
+Child:NA
+
+Responsibility:
+    - define invalid number of arguments
+
+
+

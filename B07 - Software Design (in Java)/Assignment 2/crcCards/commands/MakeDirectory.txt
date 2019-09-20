@@ -1,0 +1,16 @@
+Class name: MakeDirectory
+Parent: Command
+Child/sub classes: None
+
+Responsibilities:
+	- Make a directory with the given pathname 
+  - Make a directory in the current directory with the given name 
+  
+Collaborators:
+  - Directory
+  - FileObject
+  - FileObjAlreadyExists
+  - InvalidArguments
+  - InvalidFileName
+  - PathNotFound
+  

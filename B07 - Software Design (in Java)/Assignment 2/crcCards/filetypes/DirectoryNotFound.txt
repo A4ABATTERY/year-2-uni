@@ -1,0 +1,9 @@
+Class name: DirectoryNotFound
+Parent: FileObjNotFound
+Child: NA
+
+Responsibility:
+    - Define Directory not found`
+
+
+

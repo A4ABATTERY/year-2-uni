@@ -1,0 +1,9 @@
+Class name: FileObjAlreadyExists
+Parent: StdError
+Child: NA
+
+Responsibility:
+- Define File Object Already Exists
+
+
+

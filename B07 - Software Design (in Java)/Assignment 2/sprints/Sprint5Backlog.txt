@@ -1,0 +1,23 @@
+Sprint 5 Backlog
+
+November 19th to November 26th
+
+
+All tasks un-completed/partially-completed tasks need to be completed.
+Look at Sprint 4.
+
+Completed tasks include:
+    - Mv command
+    - Cp command
+    - redirection
+    - List -R 
+
+All other tasks mentioned in Sprint 4 need to be completed.
+
+*******  Refer to Sprint 4  ********
+
+
+
+ADDED:
+
+    SaveJFS

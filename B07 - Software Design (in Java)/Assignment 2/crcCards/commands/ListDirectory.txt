@@ -1,0 +1,19 @@
+Class name: ListDirectory
+Parent: Command
+Child/sub classes: None
+
+Responsiblities: 
+- List contents inside of a given Director(y/ies)
+    - can also list recursive
+
+Collaborators:
+- FileObject
+- Directory
+- parser
+- JShellFileSystem
+- FileObjNotFound
+- InvalidArguments
+- PathNotFound
+- StdOutput
+
+

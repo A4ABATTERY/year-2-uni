@@ -1,0 +1,12 @@
+Class name: ShellHistory
+Parent: Command
+Child: NA
+
+Responsiblity:
+    - Keep track of History of commands entered by user.
+    - Return back history of command entered by user.
+
+Collaborators:
+    - InvalidArguments
+    - InvalidNumberOfArgs
+    - StdOutput

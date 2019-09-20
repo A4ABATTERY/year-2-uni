@@ -1,0 +1,12 @@
+File Name:  dodavid2Sprint2November3.txt
+Author:     David Do
+UTor Id:    dodavid2
+Date/Time:  November 3rd, 2018. @ 11:52PM
+
+What did I work on the last 3 days?
+    -Completed the Cat Class
+What do I plan to do for the next 3 days?
+    -Create the Exit Class
+    -Help create test files for the code
+Am I blocked on anything?
+    -Waiting on the rest of the commands to be finished.

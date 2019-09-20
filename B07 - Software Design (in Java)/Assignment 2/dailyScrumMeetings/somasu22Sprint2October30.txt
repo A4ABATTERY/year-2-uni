@@ -1,0 +1,10 @@
+What did I work on in the last three days?
+    - Completed MakeDirectory, PushDirectory and PopDirectory (with DirectoryStack)
+
+What do I plan to work in the next three days?
+    - Start the next testing sprint
+    - test the code thoroughly to make sure everything works properly
+    - Attend and complete the demo with TAs and propose some ideas for improvement in design
+
+Am I blocked on anything?
+    - Nothing

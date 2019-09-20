@@ -1,0 +1,10 @@
+Class name: StdOutput
+Parent:NA
+Child: NA
+Implements: RetType
+
+Responsibility:
+- Define standard output
+
+
+

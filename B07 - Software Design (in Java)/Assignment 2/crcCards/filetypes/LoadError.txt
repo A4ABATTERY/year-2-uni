@@ -1,0 +1,9 @@
+Class name: LoadError
+Parent:StdError
+Child: NA
+
+Responsibility:
+- Define load error
+
+
+

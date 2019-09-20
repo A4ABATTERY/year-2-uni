@@ -1,0 +1,7 @@
+Class Name: (INTERFACE) RetType
+parent: NA
+Implemented by: All other classes in the package JShellReturnTypes
+
+Responsiblity:
+    - Has a toString method
+

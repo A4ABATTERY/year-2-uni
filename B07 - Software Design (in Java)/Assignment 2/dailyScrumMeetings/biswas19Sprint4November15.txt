@@ -1,0 +1,24 @@
+Author: Arunav Biswas
+Utor    Biswas19
+Sprint4 (Assignment 2B)
+November 15th
+
+
+
+What did I work on in the past 3 days?
+    - Write up ProductBacklog2B
+    - Write up Sprint
+    - Help out with Standard Output
+        - Wrote all standart output classes.
+    - Fixed a small error in LisDir
+    - Discuss design and implementation with Group-mates
+    
+What do I plan to work on in the next 3 days?
+    - Finish on task (I) from Sprint4. (Make directory iterable)
+    - Work on (G) and (B) from Sprint4. (Add -R functionality to ListDirectory.
+    - After (G) and (B) are done, work on (M). (TreeDirectory)
+
+Am I blocked on anything?
+    - Junit is not working on my computer.
+        - I need to figure this out.
+

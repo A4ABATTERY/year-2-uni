@@ -1,0 +1,25 @@
+biswas19Sprint2October27
+Author:		Arunav Bisws
+UTor Id:	biswas19	
+Date/TIme:	October 27th, 2018 @ 11:00PM
+
+
+
+
+what did I work on in the last 3 days?
+
+	- Fixing bugs in ListDirectory
+	- Had to cahnge ListDirectory to work with new changes in CHangeDirectory
+	- Needed to make more edits to crcCards in the google driver folder\
+
+What do I plan to work on in the next three days?
+
+	- Continue workin on crcCards;
+	-Discuss how the implementation fo History is supposede to work.
+
+
+Am I blocked on anything?
+
+	- Not really, but there are a couple of bugs in ChangeDirectory.getDirInPath();
+		- These bugs effect how ListDirectory functions.
+	

@@ -1,0 +1,1 @@
+﻿What did I work on the last 3 days?	-planned different ways to implement pwd command	-Wrote parts of code for pwd command What do I plan to do for the next 3 days?	-Finish Java Documentation for pwd	-Make sure it is implemented well and works accordingly with the shell.Am I blocked on anything?	-No

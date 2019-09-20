@@ -1,0 +1,14 @@
+Author: Arunav Biswas
+Utor    Biswas19
+Sprint4 (Assignment 2B)
+November 15th
+
+What did I work on in the past 3 days?
+    -   working on ListDir
+
+What do I plan to work on in the next?
+    - Finish -R function for ListDirectory
+    - need to work (I), (G), (B).
+
+Am I blocked on anything?
+    - need to figure our Junit

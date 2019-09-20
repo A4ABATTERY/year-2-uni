@@ -1,0 +1,15 @@
+Author: Arunav Biswas
+Utor    Biswas19
+Sprint4 (Assignment 2B)
+November 18th
+
+What did I work on in the past 3 days?
+    - ListDir
+    - JShellFileSystem is now Singleton and partially generic.
+        - Need to clarify with instructor on how Generics works with Singleton.
+What do I plan to work on in the next 3 days?
+    - Finish up ListDirectory
+    - Finish up Find and Save
+
+Am I blocked on anything?
+    - None

@@ -1,0 +1,23 @@
+File Name:	biswas19Sprint3October30.txt
+Author:		Arunav Biswas
+UTor ID:	Biswas19
+Date/Time:	October 30th, 2018. @ 10pm
+
+What did I work on in the last three days?
+	- Sprint 2
+		- I wrote up the document and gave everyone tasks.
+	- ShellHistory.java
+	- Helped with Directory.java
+		-Cleared up confusion and decided to use Directory.java as the 'FileSystem'
+	
+What do I plan to work on in the next three days?
+	- ShellHistory.java
+	- Sprint3
+		- And giving out tasks.
+	- Edit Sprint2
+		- Logging deviation from the original plan (tasks defined in Sprint 2)
+	- Will be ironing out Bugs
+		- I am going to try and make a test suite. Need to review and may need help.
+
+Am I blocked on anything?
+	- Not really.

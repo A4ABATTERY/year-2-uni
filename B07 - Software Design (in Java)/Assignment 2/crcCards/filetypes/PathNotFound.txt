@@ -1,0 +1,9 @@
+Class name: PathNotFound
+Parent:StdError
+Child: NA
+
+Responsibility:
+    - Define Path Not Found
+
+
+

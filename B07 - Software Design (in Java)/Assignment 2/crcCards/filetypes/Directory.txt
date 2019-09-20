@@ -1,0 +1,11 @@
+Class name: Directory
+Parent: FileObject
+
+Responsiblities:
+  - Contain the file structure of a Directory
+  -  Its a file type
+  
+Collaborators:
+  - Parser
+  - FileObject
+  - JShellFileSystem

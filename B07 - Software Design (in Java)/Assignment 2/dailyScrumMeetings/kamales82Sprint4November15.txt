@@ -1,0 +1,10 @@
+What did I work on in the last three days?
+    - collaborated with group to split tasks
+    - collaborated with group to plan a new design to corporate the new commands
+    - worked on new command manual.
+
+What do I plan to work in the next three days?
+    - finish off command manual and start on J-shell
+
+Am I blocked on anything?
+    - no

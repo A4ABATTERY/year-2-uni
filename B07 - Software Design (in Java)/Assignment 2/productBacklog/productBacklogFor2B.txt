@@ -1,0 +1,104 @@
+Product Backlog for 2B
+
+Authors:    Arunav Biswas
+            Birathan Somasundaram
+            Tsang Wing Kin
+            Subagan Kamaleswaran
+
+Utor Ids:   Biswas19
+            Somasu22
+            tsangw18
+            Kamales8
+        
++--------+---------------------------------------------------+-----------+
+|        |                  BackLog Item                     | Estimated |
+| status |       Compilation of User Stories, Functional     |  time in  |
+|        |         requirements and user expectations.       |   hours   |
+|--------+---------------------------------------------------+-----------+
+| old    | Handle weird shell input from user                |    2.50   |
+|--------+---------------------------------------------------+-----------+
+| old    | Users May want to exit the program                |    0.25   |
+|--------+---------------------------------------------------+-----------+
+| old    | Users may want to make a directory.               |    0.50   | 
+|--------+---------------------------------------------------+------------
+| old    | Users may want to enter/change-directory. They    |           |
+|        | may want to do this by entering a path, or a      |    1.00   |
+|        | directory within the current directory.           |           |
+|--------+---------------------------------------------------+------------
+| old    | Users may want to print the path of the current   |    0.10   |
+|        | directory.                                        |   (6 min) |
+|--------+---------------------------------------------------+-----------+
+| old    | Users may be interested in viewing what files are |           |
+|        | in their current directory. They might also want  |    0.50   |
+|        | to view files in a directory other than the one   |           |
+|        | they are in.                                      |           |
+|--------+---------------------------------------------------+-----------+
+| old    | Users navigating through complex file paths may   |           |
+|        | want to keep track of where they are and then     |           |
+|        | later navigate back. Essentially they'd be leaving|    1.00   |
+|        | a "Cookie trail" of sorts, which they can then    |           |
+|        | follow back.                                      |           |
+|--------+---------------------------------------------------+-----------+
+| old    | A user may want to know what they entered last.   |           |
+|        | This is basically just showing the user a list of |    0.50   |
+|        | commands that they entered in the past.           |           |
+|--------+---------------------------------------------------+-----------+
+| old    | A user may want to quickly check the contents of  |    0.25   |
+|        | a file without leaving the shell.                 |           |
+|--------+---------------------------------------------------+-----------+
+| old    | A user may want to quickly append a string to a   |    0.50   |
+|        | file without explicitly opening the file.         |           |
+|--------+---------------------------------------------------+-----------+
+| old    | A user may want to quickly check the content of   |    0.25   |
+|        | a file without leaving the shell.                 |           |
+|--------+---------------------------------------------------+-----------+
+| old    | A user may want to overwrite the contents fo an   |    0.10   |
+|        | existing file.                                    |   (6 min) |
+|--------+---------------------------------------------------+-----------+
+| old    | Users may also want to return the string they just|    0.05   |
+|        | entered.                                          |   (3 min) |
+|--------+---------------------------------------------------+-----------+
+| old    | A user may want to learn about what a command     |    0.50   |
+|        | does. They may want to look at the manual.        |           |
+|--------+---------------------------------------------------+-----------+       
+| New    | A user may want to store the output of a command  |    0.75   |
+|        | in a file to view later.                          |           |
+|--------+---------------------------------------------------+-----------+
+| New    | A user may want to look at the contents of        |           |
+|        | a directory and its sub-directories, and its sub- |    0.50   |
+|        | sub-directories, and its                          |           |
+|        | sub-sub...-sub-directories                        |           |
+|--------+---------------------------------------------------+-----------+
+| New    | users may have made a file in a directory that    |           |
+|        | they didn't intend to. Hence, they may want to    |    1.00   |
+|        | move a file from one directory to another.        |           |
+|--------+---------------------------------------------------+-----------+
+| New    | A user may need to make the same file in two      |           |
+|        | different directories. Hence, they may want to    |    0.50   |
+|        | copy a file from one directory to another.        |           |
+|--------+---------------------------------------------------+-----------+
+| New    | Since users can print multiple files to screen,   |           |
+|        | they are prone to making errors in path/file-names|    0.10   |
+|        | Hence, a corresponding error message must be      |   (6 min) |
+|        | given.                                            |           |
+|--------+---------------------------------------------------+-----------+
+| New    | A user may want to get a file from an online      |           |
+|        | source. Hence, they must be able to enter         |    0.50   |
+|        | web addresses to download  a file from the WWW.   |           |
++------------------------------------------------------------+-----------+
+| New    | A user may want to find a file or directory within|    1.00   |
+|        | a particular path.                                |           |
++------------------------------------------------------------+-----------+
+| New    | A user may want a visual representation of how    |    1.00   |
+|        | their filesystem looks like.                      |           |
++------------------------------------------------------------+-----------+
+| New    | A user may want to load and save their filesystem.|    1.00   |
+|        | This would also be used if the user is shutting   |           |
+|        | down and starting up their device.                |           |
++------------------------------------------------------------+-----------+
+|                                                            |           |
+|        TOTAL TIME ------------------------------->         |    13.1   |
+|                                                            |           |
++------------------------------------------------------------+-----------+
+
+

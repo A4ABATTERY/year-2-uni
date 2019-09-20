@@ -1,0 +1,15 @@
+File Name:  dodavid2Sprint1October20.txt
+Author:     David Do
+UTor Id:    dodavid2
+Date/Time:  October 20th, 2018. @ 7:30PM
+
+What did I work on the last 3 days?
+    -Making the skeleton code for Abstract Class Command
+    -Making the skeleton code for File Class
+    -Making the skeleton code for Echc Class
+    -Collaborated in making the new design for Command
+What do I plan to do for the next 3 days?
+    -Complete the code for File
+    -Complete the code for Echo
+Am I blocked on anything?
+    -Need clarification on how Commands work

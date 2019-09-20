@@ -1,0 +1,16 @@
+Class name: find
+Parent: Command
+Child: NA
+
+Responsibilities:
+    - Find a fileObject(Specified by the user) in a Director(y/ies) Specified
+    by the user.
+
+Collaborators:
+-Directory
+-FileObject
+-FileObjNotFound
+-InvalidArguments
+-InvalidNumberOfArgs
+-PathNotFound
+-StdOutput

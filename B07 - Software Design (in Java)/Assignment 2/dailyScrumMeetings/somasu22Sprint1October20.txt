@@ -1,0 +1,13 @@
+What did I work on in the last three days?
+    - Worked on Directory and ChangeDirectory
+    - Brainstormed new design ideas with group to accomodate professor's advice 
+    - Worked on Product/Sprint Backlog with group and delegated tasks
+    - Worked together on crcCards
+
+What do I plan to work in the next three days?
+    - Finalize Directory and ChangeDirectory (with error handling and commenting)
+    - Complete crcCards with the group
+    - Complete MakeDirectory after discussing design ideas with group
+
+Am I blocked on anything?
+    - Need the filesystem design to be rediscussed in order for me to complete the Directory/ChangeDirectory Classes and to start on MakeDirectory

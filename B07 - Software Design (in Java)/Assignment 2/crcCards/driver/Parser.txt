@@ -1,0 +1,11 @@
+Class name: Parser
+Parent: NA
+Sub Classes: NA
+
+Responsibilities:
+  -Formats Strings from JShell into arguments for Commands to use
+  -Formats path names into a file names for Commands to use
+Collaborators: 
+-Directory
+-FileObject
+-JShellFileSystem

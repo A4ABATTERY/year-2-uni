@@ -1,0 +1,18 @@
+What did I work on in the last three days?
+    - Finished our demo with the TA
+    - Tested MakeDirectory, ChangeDirectory, Pop/PushDirectory through main method
+      of JShell (did not use test classes yet)
+    - Found a few errors and update the classes
+    - Also thought of a few test cases to put in some test classes for the next
+      scrum meeting
+
+What do I plan to work in the next three days?
+    - Complete some testclasses for the next scrum meeting
+      - fix any issues this testing reveals
+    - Need to finish Javadocs and comments
+    - review CRC cards to make sure they are coherent with our design
+
+Am I blocked on anything?
+    - Would like to make test classes for testing my classes but I do not feel 
+      completely confident with them yet, and would like to review lecture slides and
+      learn more in the next lecture before I start

@@ -1,0 +1,75 @@
+Product Backlog for 2A
+
+Authors:  Arunav Biswas             
+          Birathan Somasundaram
+          David Do
+          Subagan Kamaleswaran
+
+UTor IDs: Biswas19
+          Somasu22
+          Dodavid2
+          Kamales8
+
+|-----------------------------------------+-------------+
+|                Backlog Item             |  Estimated  |
+| Compilation of User stories, Functional |   time in   |
+|  requirements and Customer Expectation. |    hours    |
+|-----------------------------------------+-------------+
+|Handle weird shell input from users.     |    2.50     |
+|-----------------------------------------+-------------+
+|Users may want to exit the program.      |    0.25     |
+|-----------------------------------------+-------------+
+|Users may want to make a directory.      |    0.50     |
+|-----------------------------------------+-------------+
+|Users may want to enter/change-directory.|             |
+|They may want to do this by entering a   |    1.00     |         
+|path, or a directory within their current|             |
+|directory.                               |             |
+|-----------------------------------------+-------------+
+|Users may want to print the path of the  |    0.10     |
+|current directory.                       |   (6 min)   |
+|-----------------------------------------+-------------+
+|Users may be interested in viewing what  |             |
+|files are in their current directory.    |             |
+|They might also want to view files in    |    0.50     |   
+|a directory other than the one they are  |             |
+|in.                                      |             |
+|-----------------------------------------+-------------+
+|Users navigating through complex file    |             |
+|paths may want to keep track of where    |             |
+|they are and then later navigate back    |    1.00     |
+|Essentially they'd be leaving a "Cookie  |             |
+|trail" of sorts, which they then can     |             |
+|follow back.                             |             |
+|-----------------------------------------+-------------+
+|A user may want to know what they        |             |
+|entered last. This is basically just     |    0.50     |
+|showing the user a list of commands that |             |
+|they entered in the past.                |             |
+|-----------------------------------------+-------------+
+|A user may want to quickly check the     |             |
+|the contents of a file without leaving   |    0.25     |
+|the shell.                               |             |
+|-----------------------------------------+-------------+
+|A user may want to quickly append        |             |
+|a string to a file without explicitly    |    0.50     |
+|opening the file                         |             |
+|-----------------------------------------+-------------+
+|A user may want overwrite the contents of|    0.10     |
+|of an existing file.                     |   (6 min)   |
+|-----------------------------------------+-------------+
+|Users may also want to return the        |    0.05     |
+|string they just entered.                |   (3 min)   |
+|-----------------------------------------+-------------+
+|A user may want to learn about what a    |             |
+|command does. They may want to look at a |    0.50     |
+|manual.                                  |             |
+|-----------------------------------------+-------------+
+|                                         |             |
+|    TOTAL TIME -------------------->     |    7.75     |
+|                                         |             |
+|-----------------------------------------+-------------+
+  - All times stated include 'testing' time.
+    We feel that if we write functions and test as we go, we will
+    have a smaller list of bugs and errors to fix.
+

@@ -1,0 +1,19 @@
+Author: Arunav Biswas
+Utor    Biswas19
+Sprint4 (Assignment 2B)
+November 18th
+
+What did I work on in the past 3 days?
+    - Write up ListDirectory -R
+    - JShellFileSystem. Struggled with making it use the Generic and Singleton
+      Design patterns.
+    - Directory Iterator.
+
+What do I plan to work on in the next 3 days?
+    - Re-work ListDirectory.
+    - Help with Find and Save
+    - Once listDir is finished I can start on 
+    - Going to use the school computers to work on TestClasses.
+
+Am I blocked on anything?
+    - JUnit is still not working on my computer.

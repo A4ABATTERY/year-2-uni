@@ -1,0 +1,15 @@
+What did I work on in the last three days?
+    - Worked with team to split tasks from the product backlog, for the sprint
+    - Discussed and planned out a new design to in corporate the new commands
+      with team
+    - Worked with team to plan out stderr and stdout classes and subclasses to
+      differentiate between different types of input/output
+    
+What do I plan to work in the next three days?
+    - Work on task C and D (mv and cp commands)
+    - Work on their test classes, and would also like to complete those
+      from Assignment2A (did not complete all test classes)
+    
+Am I blocked on anything?
+    - Filesystem may be reworked a bit to incorporate an iterator and
+      generics. (may interfere)

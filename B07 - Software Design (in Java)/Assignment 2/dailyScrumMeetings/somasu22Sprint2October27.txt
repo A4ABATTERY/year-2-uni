@@ -1,0 +1,11 @@
+What did I work on in the last three days?
+    - Updated Directory and ChangeDirectory with static methods that other commands can use
+    - Added a DirectoryStack class for pushd and popd commands which i can later use
+      to finish makeDirectory
+
+What do I plan to work in the next three days?
+    - Finish crc cards for my classes 
+    - Finish MakeDirectory using pushd and popd commands
+
+Am I blocked on anything?
+    - Need to finish pushd and popd before i can finish makeDirectory

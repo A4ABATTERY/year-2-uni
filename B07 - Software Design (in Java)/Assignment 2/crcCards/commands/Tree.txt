@@ -1,0 +1,10 @@
+Class name: Tree
+Parent: Command
+Child: NA
+
+Responsibilities:
+    - Directory
+    - FileObject
+    - JShellFileSystem
+    - InvalidNumberOfArgs
+    - StdOutput

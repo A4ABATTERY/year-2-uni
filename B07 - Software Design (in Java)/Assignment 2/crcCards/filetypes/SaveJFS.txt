@@ -1,0 +1,13 @@
+class name: SaveJFS
+Parent: NA
+Child: NA
+
+Responsiblities:
+    - Make an object that contains the current state of the JShell
+
+Collaborators:
+    -ShellHistory
+    -Directory
+    -DirectoryStack
+    -FileObject
+    -JShellFileSystem

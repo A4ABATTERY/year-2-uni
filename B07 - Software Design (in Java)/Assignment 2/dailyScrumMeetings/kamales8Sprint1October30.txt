@@ -1,0 +1,1 @@
+﻿What did I work on the last 3 days?	-finished pwd command	- discussed redesign to make our code more efficient.	- created a file of text documents with descriptions for each command to 	be used for command manualWhat do I plan to do for the next 3 days?- Finish the command manual- Meet with ta to show our progress- Add CRC cardsAm I blocked on anything?	-Nope

@@ -1,0 +1,14 @@
+What did I work on in the last three days?
+    - We reworked the design again, and it is ready to incorporate the new commands, we decided that each command would
+      output a list of stdouts and stderrors, so that testing is easier, and organization is much better
+    - Worked on fixing errors in multiple classes due to the previous design change
+    - Worked on test classes from Assignment 2A
+    
+What do I plan to work on in the next three days?
+    - Incorporate the ideas mentioned above and complete testclasses later
+    - Start working on cp and mv
+    
+Am I blocked on anything?
+    - Need to work on a few new design ideas before testing, because there were a few issues
+      with our command outputs that made testing somewhat difficult and unclear. Need
+      these to be done before i can continue

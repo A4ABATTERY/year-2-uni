@@ -1,0 +1,1 @@
+﻿a) What did I work on in the last three days? Worked on pwd and description strings.b) What do I plan to work in the next three days?Finish pwd and work on the description stringsc) Am I blocked on anything?  Not every crc card is complete so hard to write a string for every command and how to use it.

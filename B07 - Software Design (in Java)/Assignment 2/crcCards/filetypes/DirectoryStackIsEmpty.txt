@@ -1,0 +1,9 @@
+Class name: DirectoryStackIsEmpty
+Parent: StdError
+Child: NA
+
+Responsibility:
+ - Define Directory Stack is empty
+
+
+

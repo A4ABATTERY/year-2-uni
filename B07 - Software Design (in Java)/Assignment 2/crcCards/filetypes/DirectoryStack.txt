@@ -1,0 +1,8 @@
+Class Name: DirectoryStack
+Parent: NA
+Child: NA
+
+Responsiblities:
+    - Keep track of Dirs in stack for pushd and popd
+Collaborators:
+-Directory

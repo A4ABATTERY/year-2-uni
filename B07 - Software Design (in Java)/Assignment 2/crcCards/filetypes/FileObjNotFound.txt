@@ -1,0 +1,9 @@
+Class name: FileObjNotFound
+Parent: StdError
+Child: DirectoryNotFound, FileNotFound
+
+Responsibility:
+- define FileObject not found
+
+
+

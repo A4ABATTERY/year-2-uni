@@ -1,0 +1,18 @@
+Class name: SaveSystem
+Parent: Command
+child: NA
+
+Responsibilities:
+    - Save the current instance of JShell to the Real-FileSystem of the user.
+
+Collaborators:
+- ShellHistory
+- Directory
+- DirectoryStack
+- FileObject
+- SaveJFS
+- JShellFileSystem
+- InvalidFileName
+- InvalidNumberOfArgs
+- PathNotFound
+- StdOutput

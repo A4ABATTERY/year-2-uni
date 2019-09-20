@@ -1,0 +1,12 @@
+a) What did I work on in the last three days?
+    - Discussed what need to be changed to fulfill the new requirement
+    - Discussed the implementation of tasks in sprint 4 with teammates
+    - Finished the code for output redirection
+
+b) What do I plan to work in the next three days?
+    - Update the echo class to fulfill the latest requirement
+    - Need to finish Javadocs and comments
+    - Create JUnit tests for both echo and output redirection methods
+
+c) Am I blocked on anything?
+    - No

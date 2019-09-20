@@ -1,0 +1,16 @@
+File Name:  dodavid2Sprint2October27.txt
+Author:     David Do
+UTor Id:    dodavid2
+Date/Time:  October 27th, 2018. @ 11250PM
+
+What did I work on the last 3 days?
+    -Talked with Arunav about the implementation of LS
+    -Modified existing method getDirinDirectory inside Directory class
+    and made it compatible with FileObject instead of only Directory, and
+    renamed the method into getObjInDirectory
+What do I plan to do for the next 3 days?
+    -Use getObjInDirectory to finish Echo method editFile
+    -Create the CRC card text file for Echo
+    -Create the Exit Class
+Am I blocked on anything?
+    -Not at the moment.

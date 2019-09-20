@@ -1,0 +1,18 @@
+Class name: JShell
+Parent: NA
+Child/sub classes: None
+
+Responsiblities:
+	- Takes input from user
+	- Uses Hashmap to collaborate with other commands
+	- prints output to screen
+	- Holds currentDir, rootDir, Hashmap, DirectoryStack, and History of past commands entered.
+Collaborators:
+	- HashmapCom
+	- DirectoryStack
+	- History
+    - ShellHistory
+    - CommandManual
+    - InvalidArguments
+    - RetType
+    - JShellFileSystem

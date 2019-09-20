@@ -1,0 +1,8 @@
+Class name: ArgError
+Parent: StdError
+Child: NA
+
+Responsibility:
+    - define error with arguments.
+
+

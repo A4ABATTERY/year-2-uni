@@ -1,0 +1,11 @@
+Class Name: JShellFileSystem
+Parent: NA
+Child: Na
+
+Responsiblities:
+    - Hold a single instance of the filesystme for the instance of JShell
+     that is runnint.
+Collaborators:
+    - Directory
+    - DirectoryStack
+    - FileObject

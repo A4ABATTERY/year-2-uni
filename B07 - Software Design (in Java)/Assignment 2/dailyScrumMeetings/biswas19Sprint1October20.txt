@@ -1,0 +1,29 @@
+File Name:  biswas19Sprint1October20.txt
+Author:     Arunav Biswas 
+UTor Id:    Biswas19
+Date/Time:  October 20th, 2018. @ 5:50PM
+
+What did I work on in the last three days?
+  - Productbacklog
+  - Sprint 1
+  - Making skeleton code for JShell.
+  - Collaborated and made cd, mkdir, ls, echo, and man
+  - Clearing confusion about what is being asked
+      -ie. In inheritance necessary.
+      -How will everything communicate 
+      -using a hashmap
+
+What do I plan to work on in the the next three days?
+  - crcCards. Namely, ListDirectory, Jshell, and HashmapCom
+  - More skeleton code. I will be coding up ListDirectory.
+
+Am I blocked on anything?
+  - I need a filesystem to work with. I can't start on ListDirectory without it.
+      -mkdir needs to be completed.
+          -I need to make directories so that i can test ListDirectory.
+      -cd needs to be completed.
+          - I need to use functionality of cd to test ListDirectory with paths.
+      -Potentially pushD and popD as well ().
+          - Depends on how i want to implement ListDirectory. This is tentative.
+
+

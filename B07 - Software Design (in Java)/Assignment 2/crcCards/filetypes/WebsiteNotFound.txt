@@ -1,0 +1,9 @@
+Class name: WebsiteNotFound
+Parent: StdError
+Child: NA
+
+Responsibility:
+- Define website not found
+
+
+

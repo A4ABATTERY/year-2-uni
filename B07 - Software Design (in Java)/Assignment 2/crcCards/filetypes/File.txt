@@ -1,0 +1,12 @@
+Class name: Echo
+Parent Class: FileObject
+Sub Class: NA
+
+Responsibilities:
+-Holds text inside it
+-Has a file name and path
+-Is always inside a Directory
+
+Collaborators:
+   -Directory
+   -FileObject

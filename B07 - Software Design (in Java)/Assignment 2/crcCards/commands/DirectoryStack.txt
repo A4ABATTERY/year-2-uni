@@ -1,0 +1,7 @@
+Class name: DirectoryStack
+
+Responsiblities:
+    - Stores a Stack of Direcotries to be pushd and popd
+
+Collaborators:
+  - Directory

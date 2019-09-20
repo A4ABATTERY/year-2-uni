@@ -1,0 +1,170 @@
+// Sprint 4 Backlog
+November 13 to November 19th
++-------------------------------------------------------------------+
+|       User Stories from product backlog:                          |
++-------------------------------------------------------------------+
+|   NEW TASKS                                                       |
++-------------------------------------------------------------------+
+|    A)  A user may want to store the output of a command in a      |Partial Task. Goes with task (F)
+|        file to view later.                                        |  
++-------------------------------------------------------------------+
+|    B)  A user may want to look at the contents of a directory     |Partial Task. Goes with task (E)
+|        and its sub-directories, and its sub...-sub-directories    |
++-------------------------------------------------------------------+
+|    C)  Users may have mae a file in a directory that they didn't  |
+|        intend to. Hence, they may want to move a file from one    |
+|        directory to another.                                      |
++-------------------------------------------------------------------+
+|    D)  A user may need to make the same file in two different     |
+|        directories. Hence, they may want to copy a file from one  |
+|        directory to another.                                      |
++-------------------------------------------------------------------+
+|   OLD FUNCTIONS/TASKS THAT ARE COMPLETED BUT NEED TO BE REWORKED  |
++-------------------------------------------------------------------+
+|    E)  ListDirectory.java                                         |Partial Task. Goes with task (B)
++-------------------------------------------------------------------+
+|    F)  Echo.java                                                  |Partial Task. Goes with task (A)
++-------------------------------------------------------------------+
+|    G)  JShellFileSystem.java                                      |
++-------------------------------------------------------------------+
+|    H)  CommandManual.java                                         |
++-------------------------------------------------------------------+
+
+a-1) Make a testClass for Class OutputToAFile
+    a-1.1) The person working on this will probably also
+           need to look at how Echo works. Currently Echo
+           has the ability to make files and put strings
+           in them. The peer doing this task must strip that
+           functionality form Echo and implement it in OutputToAFile.
+a-2) Start coding to fulfill test cases.
+a-3) Finish coding. add the class to the HashMapCom class.
+
+b-1) Make a testClass for ListDirectory
+b-2) This task goes hand-in-hand with task (E). Hence,
+     whoever has this task must do both (B) and (E).
+b-3) Start writing-up/reworking ListDirectory.
+    b-3.1) Probably uses recursion.
+
+c-1) Make a testClass for MoveFileObject.
+    c-1.1) Try peer coding with the person who is
+           writing up CopyFileObject.
+c-2) Start coding to fulfill the test cases
+c-3) Finish coding. Add the class to the HashMapCom class.
+
+d-1) Make a testClass for CopyFileObject
+    d-1.1) Try peer coding with the person who is
+           writing up MoveFileObject.
+d-2) Start coding to fulfill the test cases.
+d-3) Finish coding. Add the class to the HashMapCom class.
+
+E) ListDirectory needs to be reworked. Look at task (B).
+
+F) Echo needs to be reworked. Look at task (A)
+
+g-1) JShellFileSystem needs to be reworked.
+g-2) discuss with team on implementation ideas.
+g-3) add the iterable design pattern.
+g-4) explicitly use the Singleton design method.
+    g-4.1) All classes that need to interact with the
+           FileSystem must hold an object pointing to
+           the JShellFileSystem.
+
+h-1) Add manuals for new commands/features. (mv, cp, 
+     > output, >> output)
+h-2) Add to the description of ls. Look at assignment 2b
+     document.
+
+
+-------------------------------------------------------------------
+These tasks are assigned as follows:
+       
+       ************* Check Edits down below. **************
+
+User: Arunav Biswas
+Tasks: All of E). Hence, also has All of B).
+       Help whoever has C) 
+       Help whoever has G)
+       All of I) All of M) 
+
+User: Birathan Somasundaram
+Task: All of D). All of C).
+      Help whoever has F)
+      All of L)
+
+User: Tsang Wing Kin
+Tasks: All of F). Hence also has All of A)
+       Ask Birathan Somasundaram if you need
+       clarification on how Echo Works
+       All of K) All of K)
+
+User: Subagan Kamaleswaran
+Tasks: All of H). All of G). Ask Arunav
+       Biswas for if you need clarification on
+       how stuff works.
+
+Every one should have Complete tasks assigned 
+
+
+**********************************************************************
+EDIT
+**********************************************************************
+
+After some consultation with group-mates, we came to the conclusion
+that should work on the 'find' command first.
+
+This would mean that JShellFileSystem needs to be iterable (Subagan),
+and that Directories need to be iterable.
+
+Description for this new task: 
+    I) A user may want to find a file or Directory within a particular path.
+
+    i-1) Make sure that JShellFileSystem is iterable (ask Subagan if it
+         is complete.)
+    i-2) Make Directory class iterable.
+    i-3) Make testClass for FindFileObject.
+    i-4) Code to meet all test conditions.
+    i-5) Look for functions that we no longer need. ie
+         ChangeDirectory.getFileObj()
+    i-6) Ask people to change their code based on the
+         change in (i-5).
+
+    This task has been allocated to Arunav Biswas.
+******************************************************************************
+Other Edits:
+    Looked at assignment and found that there are 2 sprints for about 10 days.
+    Due to this time constraint, I decided to add all ProductBacklog tasks
+    to this first sprint. The second sprint will have incomplete tasks and
+    alterations that we need to make.
+
+Added tasks in product backlog:
+    J) Since users can print multiple files to screen, they are prone to
+       making errors in path/file-names. Hence, a corresponding error message
+       must be given.
+        (j-1) OUR GROUP UNKNOWINGLY FINISHED THIS IN ASSIGNMENT 2A.
+
+    K) A User may want to find a file from an online source. Hence, they must
+       be able to enter web addresses to download a file from the WWW.
+       k-1) Make testClass for GetFromURL.
+       k-2) Code to meet all test conditions.
+       k-3) Add GetFromURL to HashMapCom. 
+
+    L) A user may want to load and save their filesystem. This would also be
+       used if the user is shutting down and starting up the device.
+       l-1) Make testClass for LoadState and SaveState.
+       l-2) Collaborate ShellHistory with SaveState.
+       l-3) Code to meet allt est conditions.
+       l-4) add SaveState to HashMapCom.
+       l-5) add LoadState to HashMapCom.
+
+    M) A user may want a visual representation of how their filesystem looks
+       like.
+       m-1) Make testClass for TreeDirectory
+       m-2) Collaborate ListDirectory with Tree.
+       m-3) Code to meet all test conditions.
+       m-4) add TreeDirectory to HashMapCom
+******************************************************************************
+Task G is not needed anymore. Directories themselves are iterable.
+Hence we can just call for(dir x : JShellFileSystem.getRootdir()){ do something}
+******************************************************************************
+
+

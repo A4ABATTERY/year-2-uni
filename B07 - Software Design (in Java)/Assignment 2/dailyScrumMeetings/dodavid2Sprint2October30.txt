@@ -1,0 +1,17 @@
+File Name:  dodavid2Sprint2October30.txt
+Author:     David Do
+UTor Id:    dodavid2
+Date/Time:  October 30th, 2018. @ 11:07PM
+
+What did I work on the last 3 days?
+    -Modified Echo to accomodate changes to current directory being moved
+    to the Directory class
+    -Made Java Documentation comments for Echo
+    -Finished the editFile method for Echo
+    -added the CRC card to the crc card folder
+What do I plan to do for the next 3 days?
+    -Test Echo
+    -Make a testing environment
+    -Help make a demo
+Am I blocked on anything?
+    -Not at the moment

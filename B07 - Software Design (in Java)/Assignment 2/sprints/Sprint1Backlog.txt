@@ -1,0 +1,85 @@
+//Sprint 1 Backlog.  
+October 18 to October 23
+
+User Stories from Product Backlog that we will address in this sprint:
+A) Handle weird shell input from users.
+B) Users may want to exit the program.
+C) Users may want to enter/change-directory. They may want to do this by entering a path, or a directory within their current directory.
+D) User may want to make a new directory.
+E) Users may want to print the path of the current directory.
+F) Users may be interested in viewing what files are in their current directory. They might also want to view files in a directory other than the one they are in.
+G) A user may want to quickly append a string to a file without explicitly opening the file.
+H) A user may want to overwrite an existing file with new contents.
+I) User may also want to return the string they just entered.
+J) A user may want to learn about what a command does. They may want to look at a manual.
+
+
+
+
+Note: Only the part of the backlog that we are considering for this sprint
+
+Specific tasks to be accomplished:
+a-1) Make a Command class.
+a-2) Make “String static execute()”.
+a-3) Make “ArrayList<String> validateString()”.
+a-4) Error handle the first argument.  ie. “mKdir someFile1”.
+a-5) Make a parse method for validating weird input. ie.”     mkdir       Somefile1      “.
+
+b-1) Make a Exit class that inherits from the Command Class.
+b-2) Make sure exiting the shell is clean without crashes or leaks.
+
+c-1) Make a ChangeDirectory class that inherits from the Command class.
+c-2) Override execute() to change the current directory of the shell.
+c-3) Override validate() to help deal with paths vs directory names.
+
+d-1) Make a MakeDirectory class which inherits from the command Class.
+d-2) Make a Directory class.
+d-3) Override execute() and make a directory given a path or a folder name.
+
+e-1) Make a PresentWorkingDirectory class that inherits from the Command class.
+e-2) Override execute() to output the path of the current directory of the shell.
+
+f-1) Make ListDirectory class.
+f-2) If a path is specified, make sure ListDirectory collaborates with ChangeDirectory.
+f-3) If no directory is specified, make sure to list current directory.
+
+g-1) Make a class called Echo that inherits from Command.
+g-2) Make a class called File.
+g-3) Open a specified file that exists in the current directory. Then append the given string to the end.
+g-4) If the file to open does not exist, make the file. Then append the given string to the end.
+
+h-1) Open a specified file and overwrite its contents with the given string.
+
+i-1) If no “>” or, ”>>”, and no file name is used/given, then print the string that the user has passed in.
+
+j-1) Make a class called ManualForClasses
+j-2) For each possible command that a user could enter. Make a string that explains what it does and how to use it properly.
+
+
+These tasks are assigned as follows:
+
+User: David Do
+Tasks: All of G). All of H) All of B)
+
+User: Birathan Somasundaram
+Tasks: All of C). All of D). All of I)
+
+User: Subagan Kamaleswaran
+Tasks: All of E). All of  J).
+
+User: Arunav Sen Biswas
+Tasks: All of F). All of A)
+
+
+************************************************************************************
+EDITS SECTION
+************************************************************************************
+
+As a group, while we were discussing crcCards we noticed tha tdesigns. Hence, here is a list of edits that we made over the spring:
+
+a-1) Command class is now an abstract class, and will no longer be directly used. Arunav's command responsibilities (a-4, a-5) are moved to JShell, where
+     Standard input will be dealt with in JShell (2018-10-19)
+a-6) Added the idea of a class called HashMapCom with a list of shell commands, to configurate the shell whenever there are new commands. This 
+     responsibility goes to Birathan and Arunav (2018-10-19)
+
+

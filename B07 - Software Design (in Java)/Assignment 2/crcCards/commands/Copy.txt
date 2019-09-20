@@ -1,0 +1,16 @@
+Class name: Copy
+parent: Command
+Child: none
+
+Responsibilities:
+    - Copy a FileObject to a new Directory
+
+Collaborators:
+    - Parser
+    - Directory
+    - File
+    - FileObject
+    - JShellFileSystem
+    - InvalidArguments
+    - InvalidNumberOfArgs
+    - PathNotFound

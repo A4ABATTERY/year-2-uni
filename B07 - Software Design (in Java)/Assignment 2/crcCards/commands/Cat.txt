@@ -1,0 +1,18 @@
+Class Name: Cat
+Parent: Command
+
+Responsibilities:
+    - Show file contnents on screen.
+
+Collaborators:
+    - File
+    - FileObject
+    - Directory
+    - parser
+    - FileNotFound
+    - FileObjNotFound
+    - InvalidNumberOfArgs
+    - PathNotFound
+    - StdOutput
+    - JShellFileSystem
+

@@ -1,0 +1,1 @@
+﻿What did I work on in the last three days?    - Finished our demo with the TA    - Tested pwd through main method of JShell    - Found a few errors and update the classesWhat do I plan to work in the next three days?	- Complete command manual	- review CRC cards and commit them	-finish text files for it.Am I blocked on anything?    Need all crc cards committed

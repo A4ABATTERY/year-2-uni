@@ -1,0 +1,11 @@
+Class Name: JShell
+
+
+Responsibiliteies:
+    - Run while loop that runs the actual shell.
+
+Collaborators:
+    - Directory
+    - Command(abstrac class)
+    - Parser
+    - ShellHistory

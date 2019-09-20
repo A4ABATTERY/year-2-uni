@@ -1,0 +1,26 @@
+biswas19Sprint1October20.txt
+Author:     Arunav Biswas
+UTor Id:    Biswas19    
+Date/Time:  October 23th, 2018. @ 11:30PM
+
+
+  What did I work on in the last three days?
+	- JShell.java
+		- Making JShell keep track of rootDirectory, currentDirectory, and the hashmap
+			- We decided to make these three static variables
+			- This means that there would be a two way collaboration between JShell
+			  and every other command.
+				-This may be changed later. NOTE : We should probably talk to Abbas idk.
+	- fixing compile errors.
+		- Helped with syntax checking
+		- Helped point out issues with my peers' code.
+What do I plan to work on in the next three days?
+	- Finish ListDirectory.
+	- Start preparing for Sprint2.
+		- I will also be editing Sprint1. I will write up the ways that out group deviated
+		  from the original plan in a 'Edits' section made at the end of the documents.
+	- Transfer crcCards from GoogleDrive to this repository.
+
+Am I blocked on anything?
+	- Nothing at the moment.
+		- I will update the team on if i am.

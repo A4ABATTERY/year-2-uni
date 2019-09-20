@@ -1,0 +1,11 @@
+Class name: FileObject
+Parent: NA
+Child/Sub-classes: Directory, and File
+
+
+Responsibliites:
+    - Outline the basic requirements of what any file has
+        - Path and a name
+Collaborators:
+    - Directory
+    - JShellFileSystem

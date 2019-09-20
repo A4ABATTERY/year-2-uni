@@ -1,0 +1,16 @@
+Class name: Redirection
+Parent: NA
+Child: NA
+
+Responsibility:
+    - Redirect command output to a file
+    - Can append and overwrite files
+
+Collaborators:
+-Directory
+-File
+-FileObject
+-DirectoryNotFound
+-FileObjAlreadyExists
+-StdOutput
+

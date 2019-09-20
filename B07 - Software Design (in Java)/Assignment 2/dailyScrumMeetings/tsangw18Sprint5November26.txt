@@ -1,0 +1,8 @@
+a) What did I work on in the last three days?
+    - Create JUnit tests for other commands
+    - Work on get URL command
+        - code the whole command
+        - Make JUnit Test for GetFromURL.
+
+b) Am I blocked on anything?
+    - No

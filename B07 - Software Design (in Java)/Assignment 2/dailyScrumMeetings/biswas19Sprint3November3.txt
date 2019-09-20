@@ -1,0 +1,19 @@
+
+File Name:  biswas19Sprint1October20.txtA
+Author:     Arunav Biswas 
+UTor Id:    Biswas19
+Date/Time:  November 3th, 2018. @ 11:59PM
+
+What i worked on in the last three days?
+    - Testing code and reporting bugs
+    - Learning how to make 'test classes'
+    - Discussing mkdir and echo functions
+
+What do I plan to work on the next three days?
+    - all crcCards are final now.
+        - We havn't been transffering them because its easier to view them in a 'mind-map' on google drive
+
+Am I blocked on anything?
+    - Still waiting on being taught how to make 'test classes'
+        - this is probably going to be covered tomorrow.
+
