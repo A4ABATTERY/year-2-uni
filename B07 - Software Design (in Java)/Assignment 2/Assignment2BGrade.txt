@@ -1,0 +1,247 @@
+2 phase I marking ====
+Your assignment is marked by:
+Nagarjun Ratnesh, nagarjun.ratnesh@mail.utoronto.ca
+
+Group number: 0413
+UTORID usernames of members: biswas19, kamales8, somasu22, tsangw18
+Total deductions: 2
+Grade: A-
+
+Your team's Phase II grade is based on this scale:
+
+    http://www.artsci.utoronto.ca/newstudents/transition/academic/grading
+
+The way we graded is as follows: your team starts with an A+. When errors and
+problems are found, you will lose 0, 1, 2, or 3 letter steps, depending on the
+severity. As an example, if you lost two steps, your team would earn an A-:
+
+     A+ -> A
+     A -> A-
+
+You were asked to follow the Scrum process. A big part of that is to maintain
+a product backlog and a sprint backlog. 
+
+==== Product and Sprint backlogs ==== [up to -6] [0 marks deducted]
+
+Several steps can be lost for these kinds of issues:
+
+- [ ]  No evidence of Product or Sprint backlog -6
+- [ ]  No evidence of team assigning tasks to team members -3
+- [ ]  SB items not taken directly from PB -1
+- [ ]  SB items not broken down into smaller steps -1
+- [ ]  PB, SB uses noticeably bad grammar and/or spelling -2
+
+==== Java Style ==== [up to -6] [0 marks deducted]
+
+Steps can be lost for these kinds of issues:
+
+- [ ]  Java naming conventions not followed (camelCase, no_underscores) -1
+- [ ]  Instance variable names not meaningful (e.g., "Label1" is not a good name) -1
+- [ ]  Bad indentation -1
+- [ ]  Lack of consistency in style across files -1
+- [ ]  Bad use of whitespace: too much or too little -1
+- [ ]  Class names are frequently not noun phrases -1
+- [ ]  Method names are frequently not verb phrases -1
+- [ ]  Not following the 80character column width limit. -1
+
+==== Design ==== [up to -6] [0 marks deducted]
+
+Several steps can be lost for these kinds of issues:
+
+- [ ]  public instance variables instead of setters and getters -1 to -2
+- [ ]  not a good breakdown of classes and methods (everything static;) -1
+- [ ]  long methods exist (more than roughly 30 lines from brace to brace) -1
+- [ ]  hard to add new commands -1
+- [ ]  no unified path handling mechanism -2
+- [ ]  redirection doesn't easily incorporate new commands -2
+
+==== Javadoc ==== [up to -3] [0 marks deducted]
+
+Several steps can be lost for these kinds of issues:
+
+- [ ]  Missing Javadoc on methods -1 for infrequent problems, up to -3 for frequent
+- [ ]  Missing Javadoc on class -1
+- [ ]  No Javadoc on instance vars -1
+- [ ]  Missing use @param and @return tags -1
+- [ ]  Unclear English: bad grammar, bad spelling up to -2
+
+==== Testing ==== [up to -6] [0 marks deducted]
+Several steps can be lost for these kinds of issues:
+
+- [ ]  No test cases exist for public methods -6
+- [ ]  Some testing done for all classes and methods, but not thoroughly up to -3
+- [ ]  Test quality is inadequate or tests uninformative -1 to -2
+        e.g., testing using lots of print statements instead of assert calls
+- [ ]  Code not written to be testable -2
+
+==== Correctness ==== [up to -6] [2 marks deducted]
+
+- [ ]  Code doesn't compile without modification (if the fix is simple) -1
+- [ ]  Code that is complete (from the SB) doesn't work completely: up to -2
+- [ ]  Code crashes: -3
+- [x]  Every 3 missing/incomplete feature -1 (failed over 6 test cases, -2 deduction)
+
+TA COMMENTS:
+The following test cases failed.
+
+1.	ls with multiple paths (including file and invalid path) and redirect output
+
+Input:
+/# mkdir A
+/# echo "root" > underRoot
+/# mkdir A/B
+/# mkdir A/B/C
+/# ls A underRoot random > lsOut
+
+Expected Output:
+random: invalid path
+/# cat lsOut
+A:
+B
+
+underRoot
+
+ActualOutput:
+group_0413@A2:~/$ mkdir A
+group_0413@A2:~/$ echo "root" > underRoot
+group_0413@A2:~/$ mkdir A/B
+group_0413@A2:~/$ mkdir A/B/C
+group_0413@A2:~/$ ls A underRoot random > lsOut
+group_0413@A2:~/$ ls
+A
+underRoot
+lsOut
+group_0413@A2:~/$ cat lsOut
+/A:
+        B/underRoot
+		
+2. mv file to new name
+
+Input:
+/# echo "test" > original
+/# mv original new
+
+Expected Output:
+/# ls
+new
+/# cat new
+test
+
+Actual Output:
+group_0413@A2:~/$ echo "test" > original
+group_0413@A2:~/$ mv original new
+JShell: Path not found: "new" was not found
+
+3.	mv directory (with content) to new name
+
+Input:
+/# mkdir original
+/# cd original
+/original# echo "test" > file
+/original# cd ..
+/# mv original new
+
+Expected Output:
+/# ls
+new
+/# cd new
+/new# ls
+file
+/new# cat file
+test
+
+Actual Output:
+group_0413@A2:~/$ mkdir original
+group_0413@A2:~/$ cd original
+group_0413@A2:~/original$ echo "test" > file
+group_0413@A2:~/original$ cd ..
+group_0413@A2:~/$ mv original new
+JShell: Path not found: "new" was not found
+
+4. cp file to an existing directory
+
+Input:
+/# mkdir target
+/# echo "test" > original
+/# cp original target
+
+Expected Output:
+/# ls
+original target
+/# cd target
+/target# cat original
+test
+
+Actual Output:
+group_0413@A2:~/$ mkdir target
+group_0413@A2:~/$ echo "test" > original
+group_0413@A2:~/$ cp original target
+group_0413@A2:~/$ ls
+target
+original
+group_0413@A2:~/$ cd target
+group_0413@A2:~/target$ cat original
+
+5. cp file to replace existing file in subdirectory
+
+Input:
+/# mkdir target
+/# cd target
+/target# echo "old" > file
+/target# cd ..
+/# echo "new" > file
+/# cp file target
+
+Expected Output:
+/# ls
+file target
+/# cd target
+/target# cat file
+new
+
+Actual Output:
+group_0413@A2:~/$ mkdir target
+group_0413@A2:~/$ cd target
+group_0413@A2:~/tar$ echo "o" > file
+group_0413@A2:~/tar$ cd ..
+group_0413@A2:~/$ echo "new" > file
+group_0413@A2:~/$ cp file target
+group_0413@A2:~/$ ls
+target
+file
+group_0413@A2:~/$ cd target
+group_0413@A2:~/tar$ ls
+file
+group_0413@A2:~/tar$ cat file
+
+
+6. Cp file with redirection (should not create output file)
+
+Input:
+/# echo "test" > file
+/# cp file newfile > cpOut
+
+Expected Output:
+/# ls
+file newfile 
+ (cpOut is optional, if it exist it must be empty)
+
+Actual Output:
+group_0413@A2:~/$ echo "test" > file
+group_0413@A2:~/$ cp file newfile > cpOut
+JShell: Path not found: "newfile" was not found
+
+7. get with invalid URL
+
+Input:
+/# get http://localhost/random/random.html
+
+Expected Output:
+Invalid URL
+/# ls
+(no output)
+
+Actual Output:
+group_0413@A2:~/$ cat random
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN"><html><head><title>302 Found</title></head><body><h1>Found</h1><p>The document has moved <a href="https://localhost:443/random/random.html">here</a>.</p><hr><address>Apache/2.4.18 (Ubuntu) Server at localhost Port 80</address></body></html>
+

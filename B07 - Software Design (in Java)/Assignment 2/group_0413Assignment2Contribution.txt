@@ -1,0 +1,1205 @@
++++ASSIGNMENT2 TEAM MEMBER CONTRIBUTION+++
+
+
+
+PART 1) +++SVN CHECKOUT ON YOUR ASSIGNMENT1+++
+A    Assignment2/bin
+A    Assignment2/bin/Hashmap
+A    Assignment2/bin/JShellfilesystem
+A    Assignment2/bin/commands
+A    Assignment2/bin/driver
+A    Assignment2/bin/filetypes
+A    Assignment2/crcCards
+A    Assignment2/crcCards/Hashmap
+A    Assignment2/crcCards/JShellfilesystem
+A    Assignment2/crcCards/commands
+A    Assignment2/crcCards/driver
+A    Assignment2/crcCards/filetypes
+A    Assignment2/dailyScrumMeetings
+A    Assignment2/bin/Hashmap/HashMapCom.class
+A    Assignment2/bin/JShellfilesystem/JShellFileSystem.class
+A    Assignment2/bin/commands/Cat.class
+A    Assignment2/crcCards/commands/PrintWorkingDirectory.txt
+A    Assignment2/crcCards/driver/JShell.txt
+A    Assignment2/crcCards/filetypes/File.txt
+A    Assignment2/dailyScrumMeetings/biswas19Sprint1October20.txt
+A    Assignment2/dailyScrumMeetings/biswas19Sprint2October30.txt
+A    Assignment2/crcCards/commands/ChangeDirectory.txt
+A    Assignment2/crcCards/commands/CommandManual.txt
+A    Assignment2/crcCards/commands/Echo.txt
+A    Assignment2/crcCards/commands/ListDirectory.txt
+A    Assignment2/crcCards/commands/PopDirectory.txt
+A    Assignment2/crcCards/commands/ShellHistory.txt
+A    Assignment2/bin/commands/ChangeDirectory.class
+A    Assignment2/bin/commands/Command.class
+A    Assignment2/bin/commands/CommandManual.class
+A    Assignment2/bin/commands/DirectoryStack.class
+A    Assignment2/bin/commands/Echo.class
+A    Assignment2/bin/commands/Exit.class
+A    Assignment2/bin/commands/ListDirectory.class
+A    Assignment2/bin/commands/MakeDirectory.class
+A    Assignment2/dailyScrumMeetings/dodavid2Sprint2October27.txt
+A    Assignment2/dailyScrumMeetings/kamales8Sprint1October23.txt
+A    Assignment2/dailyScrumMeetings/readMeDailyScrumMeetings.txt
+A    Assignment2/productBacklog
+A    Assignment2/sprints
+A    Assignment2/crcCards/filetypes/Directory.txt
+A    Assignment2/crcCards/readMeForCrcCards.txt
+A    Assignment2/dailyScrumMeetings/biswas19Sprint2October27.txt
+A    Assignment2/dailyScrumMeetings/dodavid2Sprint1October20.txt
+A    Assignment2/dailyScrumMeetings/dodavid2Sprint3November3.txt
+A    Assignment2/src
+A    Assignment2/src/Hashmap
+A    Assignment2/src/JShellfilesystem
+A    Assignment2/dailyScrumMeetings/dodavid2Sprint1October23.txt
+A    Assignment2/dailyScrumMeetings/kamales8Sprint1October20.txt
+A    Assignment2/dailyScrumMeetings/kamales8Sprint3November3.txt
+A    Assignment2/dailyScrumMeetings/somasu22Sprint2October27.txt
+A    Assignment2/dailyScrumMeetings/kamales8Sprint1October30.txt
+A    Assignment2/dailyScrumMeetings/somasu22Sprint1October23.txt
+A    Assignment2/src/ManualsTextFile
+A    Assignment2/bin/commands/PopDirectory.class
+A    Assignment2/bin/commands/PrintWorkingDirectory.class
+A    Assignment2/bin/commands/PushDirectory.class
+A    Assignment2/productBacklog/readMeProductBacklog.txt
+A    Assignment2/productBacklog/productBacklogFor2A.txt
+A    Assignment2/bin/commands/ShellHistory.class
+A    Assignment2/bin/driver/JShell.class
+A    Assignment2/bin/driver/Parser.class
+A    Assignment2/bin/filetypes/Directory.class
+A    Assignment2/src/commands
+A    Assignment2/dailyScrumMeetings/somasu22Sprint2October30.txt
+A    Assignment2/sprints/Sprint1Backlog.txt
+A    Assignment2/src/Hashmap/HashMapCom.java
+A    Assignment2/sprints/Sprint3Backlog.txt
+A    Assignment2/src/ManualsTextFile/CAT.txt
+A    Assignment2/src/ManualsTextFile/EXIT.txt
+A    Assignment2/src/ManualsTextFile/MAKEDIRECTORY.txt
+A    Assignment2/sprints/readMeSprints.txt
+A    Assignment2/src/ManualsTextFile/CHANGE DIRECTORY.txt
+A    Assignment2/src/ManualsTextFile/HISTORY.txt
+A    Assignment2/src/ManualsTextFile/POPD.txt
+A    Assignment2/src/driver
+A    Assignment2/src/ManualsTextFile/USER MANUAL.txt
+A    Assignment2/src/ManualsTextFile/PUSHD.txt
+A    Assignment2/src/ManualsTextFile/CHANGEDIRECTORY.txt
+A    Assignment2/src/ManualsTextFile/LIST.txt
+A    Assignment2/src/ManualsTextFile/PRINT WORKING DIRECTORY.txt
+A    Assignment2/src/ManualsTextFile/USERMANUAL.txt
+A    Assignment2/src/filetypes
+A    Assignment2/src/test
+A    Assignment2/src/test/testCommands
+A    Assignment2/bin/filetypes/DirectoryStack.class
+A    Assignment2/bin/filetypes/File.class
+A    Assignment2/bin/filetypes/FileObject.class
+A    Assignment2/src/commands/CommandManual.java
+A    Assignment2/src/commands/ChangeDirectory.java
+A    Assignment2/src/commands/Exit.java
+A    Assignment2/src/commands/PrintWorkingDirectory.java
+A    Assignment2/src/driver/Parser.java
+A    Assignment2/src/filetypes/FileObject.java
+A    Assignment2/src/test/MakeDirectoryTest.java
+A    Assignment2/src/commands/Command.java
+A    Assignment2/src/commands/ListDirectory.java
+A    Assignment2/src/commands/PushDirectory.java
+A    Assignment2/src/filetypes/Directory.java
+A    Assignment2/src/test/CatTest.java
+A    Assignment2/src/test/testJShell.java
+A    Assignment2/src/commands/MakeDirectory.java
+A    Assignment2/src/commands/ShellHistory.java
+A    Assignment2/src/filetypes/DirectoryStack.java
+A    Assignment2/src/test/ChangeDirectoryTest.java
+A    Assignment2/TestsIveRunOnOurCode.txt
+A    Assignment2/crcCards/Hashmap/HashMapCom.txt
+A    Assignment2/crcCards/JShellfilesystem/JShell.txt
+A    Assignment2/crcCards/JShellfilesystem/Parser.txt
+A    Assignment2/crcCards/commands/Cat.txt
+A    Assignment2/crcCards/commands/Command.txt
+A    Assignment2/crcCards/commands/DirectoryStack.txt
+A    Assignment2/crcCards/commands/Exit.txt
+A    Assignment2/crcCards/commands/MakeDirectory.txt
+A    Assignment2/crcCards/commands/PushDirectory.txt
+A    Assignment2/crcCards/driver/Parser.txt
+A    Assignment2/crcCards/filetypes/FileObject.txt
+A    Assignment2/dailyScrumMeetings/biswas19Sprint1October23.txt
+A    Assignment2/runJShell.sh
+A    Assignment2/dailyScrumMeetings/biswas19Sprint3November3.txt
+A    Assignment2/dailyScrumMeetings/dodavid2Sprint2October30.txt
+A    Assignment2/dailyScrumMeetings/kamales8Sprint1October27.txt
+A    Assignment2/dailyScrumMeetings/somasu22Sprint1October20.txt
+A    Assignment2/dailyScrumMeetings/somasu22Sprint3November3.txt
+A    Assignment2/sprints/Sprint2Backlog.txt
+A    Assignment2/src/JShellfilesystem/JShellFileSystem.java
+A    Assignment2/src/ManualsTextFile/ECHO.txt
+A    Assignment2/src/ManualsTextFile/MAKE DIRECTORY.txt
+A    Assignment2/src/ManualsTextFile/PRINTWORKINGDIRECTORY.txt
+A    Assignment2/src/commands/Cat.java
+A    Assignment2/src/commands/Echo.java
+A    Assignment2/src/commands/PopDirectory.java
+A    Assignment2/src/driver/JShell.java
+A    Assignment2/src/filetypes/File.java
+A    Assignment2/src/test/EchoTest.java
+A    Assignment2/readMeAssignment2A.txt
+Checked out revision 241.
+
+
+
+PART 2) +++SVN COMMIT LOGS ARE+++
+Marks Deductions here (-.5 max): 
+------------------------------------------------------------------------
+r241 | biswas19@UTORONTO.CA | 2018-11-07 23:59:36 -0500 (Wed, 07 Nov 2018) | 1 line
+
+uhg
+------------------------------------------------------------------------
+r240 | somasu22@UTORONTO.CA | 2018-11-07 23:55:54 -0500 (Wed, 07 Nov 2018) | 1 line
+
+afd
+------------------------------------------------------------------------
+r239 | biswas19@UTORONTO.CA | 2018-11-07 23:53:56 -0500 (Wed, 07 Nov 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r238 | somasu22@UTORONTO.CA | 2018-11-07 23:36:12 -0500 (Wed, 07 Nov 2018) | 1 line
+
+commited testclasses
+------------------------------------------------------------------------
+r237 | dodavid2@UTORONTO.CA | 2018-11-07 23:34:46 -0500 (Wed, 07 Nov 2018) | 1 line
+
+Spelling check for Sprint Backlogs and Product Backlogs
+------------------------------------------------------------------------
+r236 | biswas19@UTORONTO.CA | 2018-11-07 23:30:48 -0500 (Wed, 07 Nov 2018) | 1 line
+
+Edited JavaDocs
+------------------------------------------------------------------------
+r235 | dodavid2@UTORONTO.CA | 2018-11-07 22:53:26 -0500 (Wed, 07 Nov 2018) | 2 lines
+
+Added EchoTest to testCommands
+-David Do
+------------------------------------------------------------------------
+r234 | somasu22@UTORONTO.CA | 2018-11-07 22:43:24 -0500 (Wed, 07 Nov 2018) | 1 line
+
+added more test cases for make and Change Directory
+------------------------------------------------------------------------
+r233 | biswas19@UTORONTO.CA | 2018-11-07 22:33:27 -0500 (Wed, 07 Nov 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r232 | somasu22@UTORONTO.CA | 2018-11-07 22:19:03 -0500 (Wed, 07 Nov 2018) | 1 line
+
+added testclass for cd
+------------------------------------------------------------------------
+r231 | biswas19@UTORONTO.CA | 2018-11-07 21:57:16 -0500 (Wed, 07 Nov 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r230 | biswas19@UTORONTO.CA | 2018-11-07 21:51:44 -0500 (Wed, 07 Nov 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r229 | biswas19@UTORONTO.CA | 2018-11-07 21:51:19 -0500 (Wed, 07 Nov 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r228 | somasu22@UTORONTO.CA | 2018-11-07 20:55:38 -0500 (Wed, 07 Nov 2018) | 1 line
+
+echo now uses FileObject.parseValidNames
+------------------------------------------------------------------------
+r227 | biswas19@UTORONTO.CA | 2018-11-07 20:40:58 -0500 (Wed, 07 Nov 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r226 | somasu22@UTORONTO.CA | 2018-11-07 20:16:19 -0500 (Wed, 07 Nov 2018) | 1 line
+
+changed variable names
+------------------------------------------------------------------------
+r225 | biswas19@UTORONTO.CA | 2018-11-07 20:09:02 -0500 (Wed, 07 Nov 2018) | 1 line
+
+Change run.sh to runJshell.sh
+------------------------------------------------------------------------
+r224 | somasu22@UTORONTO.CA | 2018-11-07 20:08:22 -0500 (Wed, 07 Nov 2018) | 1 line
+
+changed echo to handle pathnames
+------------------------------------------------------------------------
+r223 | somasu22@UTORONTO.CA | 2018-11-07 19:52:18 -0500 (Wed, 07 Nov 2018) | 1 line
+
+added test classes
+------------------------------------------------------------------------
+r222 | biswas19@UTORONTO.CA | 2018-11-07 19:36:44 -0500 (Wed, 07 Nov 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r221 | somasu22@UTORONTO.CA | 2018-11-07 19:22:15 -0500 (Wed, 07 Nov 2018) | 1 line
+
+changed Cat to incorporate paths
+------------------------------------------------------------------------
+r220 | biswas19@UTORONTO.CA | 2018-11-07 18:56:43 -0500 (Wed, 07 Nov 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r219 | dodavid2@UTORONTO.CA | 2018-11-07 17:59:58 -0500 (Wed, 07 Nov 2018) | 3 lines
+
+Added/Edited Java Documentation for all classes in the drivers
+ and filetypes package.
+-David Do
+------------------------------------------------------------------------
+r218 | dodavid2@UTORONTO.CA | 2018-11-07 17:09:31 -0500 (Wed, 07 Nov 2018) | 2 lines
+
+Added/Edited Java Documentation for all classes in the commands package.
+-David Do
+------------------------------------------------------------------------
+r217 | dodavid2@UTORONTO.CA | 2018-11-07 16:29:04 -0500 (Wed, 07 Nov 2018) | 2 lines
+
+Added/Edited Java Documentation for Cat, ChangeDirectory, Command,
+CommandManual, Echo, Exit, and ListDirectory.
+------------------------------------------------------------------------
+r216 | biswas19@UTORONTO.CA | 2018-11-07 16:21:17 -0500 (Wed, 07 Nov 2018) | 1 line
+
+Fixed LisDir
+------------------------------------------------------------------------
+r215 | somasu22@UTORONTO.CA | 2018-11-07 16:20:43 -0500 (Wed, 07 Nov 2018) | 1 line
+
+removed unused method
+------------------------------------------------------------------------
+r214 | somasu22@UTORONTO.CA | 2018-11-07 15:31:29 -0500 (Wed, 07 Nov 2018) | 1 line
+
+re-added testJShell.java at a different location
+------------------------------------------------------------------------
+r213 | dodavid2@UTORONTO.CA | 2018-11-07 15:17:49 -0500 (Wed, 07 Nov 2018) | 2 lines
+
+Deleted testJShell.java
+-David Do
+------------------------------------------------------------------------
+r212 | somasu22@UTORONTO.CA | 2018-11-07 15:14:49 -0500 (Wed, 07 Nov 2018) | 1 line
+
+removed the directory for testJShell.java, (no need)
+------------------------------------------------------------------------
+r211 | dodavid2@UTORONTO.CA | 2018-11-07 15:14:37 -0500 (Wed, 07 Nov 2018) | 2 lines
+
+Refactored Directory Stack from commands folder to filetypes folder 
+-David Do
+------------------------------------------------------------------------
+r210 | dodavid2@UTORONTO.CA | 2018-11-07 14:59:24 -0500 (Wed, 07 Nov 2018) | 1 line
+
+Added Java Documentation for Command
+------------------------------------------------------------------------
+r209 | dodavid2@UTORONTO.CA | 2018-11-07 13:59:00 -0500 (Wed, 07 Nov 2018) | 1 line
+
+Implemented parseValidName into Echo -David Do
+------------------------------------------------------------------------
+r208 | dodavid2@UTORONTO.CA | 2018-11-07 13:56:31 -0500 (Wed, 07 Nov 2018) | 1 line
+
+Edit name to parseValidName method for FileObject Class. -David Do
+------------------------------------------------------------------------
+r207 | dodavid2@UTORONTO.CA | 2018-11-07 13:55:54 -0500 (Wed, 07 Nov 2018) | 1 line
+
+Edit name to parseValidName method for FileObject Class. -David Do
+------------------------------------------------------------------------
+r206 | dodavid2@UTORONTO.CA | 2018-11-07 13:55:00 -0500 (Wed, 07 Nov 2018) | 1 line
+
+Added parseValidFileName method for FileObject Class. -David Do
+------------------------------------------------------------------------
+r205 | somasu22@UTORONTO.CA | 2018-11-07 13:45:14 -0500 (Wed, 07 Nov 2018) | 1 line
+
+fixed MakeDirectory to take multiple directories
+------------------------------------------------------------------------
+r204 | dodavid2@UTORONTO.CA | 2018-11-07 13:39:44 -0500 (Wed, 07 Nov 2018) | 1 line
+
+Add Java documentation for CommandManual -David Do
+------------------------------------------------------------------------
+r203 | somasu22@UTORONTO.CA | 2018-11-07 13:36:11 -0500 (Wed, 07 Nov 2018) | 1 line
+
+Removed unused variable in Change Directory
+------------------------------------------------------------------------
+r202 | biswas19@UTORONTO.CA | 2018-11-07 13:30:31 -0500 (Wed, 07 Nov 2018) | 1 line
+
+Fixed extra newline being printed
+------------------------------------------------------------------------
+r201 | biswas19@UTORONTO.CA | 2018-11-07 13:23:46 -0500 (Wed, 07 Nov 2018) | 1 line
+
+FIxed null string being sent back from Command Manual
+------------------------------------------------------------------------
+r200 | dodavid2@UTORONTO.CA | 2018-11-07 12:44:33 -0500 (Wed, 07 Nov 2018) | 2 lines
+
+Added java documentation for ChangeDirectory class. -David Do
+Added TODO for removing the unused variable output in the execute method
+------------------------------------------------------------------------
+r199 | dodavid2@UTORONTO.CA | 2018-11-07 12:43:54 -0500 (Wed, 07 Nov 2018) | 1 line
+
+Added java documentation for Cat. -David Do
+------------------------------------------------------------------------
+r198 | dodavid2@UTORONTO.CA | 2018-11-07 11:53:43 -0500 (Wed, 07 Nov 2018) | 2 lines
+
+Added java documentation for Parser, edited the CRC card for Parser.
+-David Do
+------------------------------------------------------------------------
+r197 | kamales8@UTORONTO.CA | 2018-11-06 20:57:11 -0500 (Tue, 06 Nov 2018) | 1 line
+
+updated Man
+------------------------------------------------------------------------
+r196 | biswas19@UTORONTO.CA | 2018-11-06 20:56:00 -0500 (Tue, 06 Nov 2018) | 1 line
+
+More crcCards
+------------------------------------------------------------------------
+r195 | biswas19@UTORONTO.CA | 2018-11-06 18:48:40 -0500 (Tue, 06 Nov 2018) | 1 line
+
+ crcCards are now done. Please check them
+------------------------------------------------------------------------
+r194 | kamales8@UTORONTO.CA | 2018-11-06 17:23:53 -0500 (Tue, 06 Nov 2018) | 1 line
+
+text update
+------------------------------------------------------------------------
+r193 | kamales8@UTORONTO.CA | 2018-11-06 17:22:03 -0500 (Tue, 06 Nov 2018) | 1 line
+
+CommandManual update
+------------------------------------------------------------------------
+r192 | somasu22@UTORONTO.CA | 2018-11-06 16:50:34 -0500 (Tue, 06 Nov 2018) | 1 line
+
+moved parseNewDirpath from makeDirectory to the Parser class
+------------------------------------------------------------------------
+r191 | biswas19@UTORONTO.CA | 2018-11-05 23:25:54 -0500 (Mon, 05 Nov 2018) | 9 lines
+
+Reworked filesystem(Directory) to be its own class. Directory is now a filetype. and now theres is a seperate class called JShellFileSystem that holds currDir and rootDir. Please look at the code. I did not implement iterator<Directory>.
+
+I still need to read more documentation on Iterators in java. I dont think i will be able to implement it by Wed(nov 7th).
+
+CommandManual needs to be completed.
+popd still acts weird
+I made a new txt file with an outline of all test commands ive run our code. Check TestsIveRunOnOurCode.txt
+
+I will be making TestClasses tomorrow.
+------------------------------------------------------------------------
+r190 | kamales8@UTORONTO.CA | 2018-11-05 19:14:02 -0500 (Mon, 05 Nov 2018) | 1 line
+
+edited version
+------------------------------------------------------------------------
+r189 | biswas19@UTORONTO.CA | 2018-11-05 17:50:10 -0500 (Mon, 05 Nov 2018) | 1 line
+
+Found a bug in JShell. The bug was: If the user pushes enter without inputting anything, then the program crashes. It throws Exception.IndexOutOfBoundsException: Index = 0, Size = 0. I put another if statement to check if the size of 'args list array' is greater than 0.
+------------------------------------------------------------------------
+r188 | kamales8@UTORONTO.CA | 2018-11-05 13:21:02 -0500 (Mon, 05 Nov 2018) | 1 line
+
+CRC cards for Pwd & command manual
+------------------------------------------------------------------------
+r187 | biswas19@UTORONTO.CA | 2018-11-05 13:19:46 -0500 (Mon, 05 Nov 2018) | 3 lines
+
+Changed all imports to be more specifc, and removed redundant imports. 'import filetypes.*' is now split into whatever imports the class needs. ie. ChangeDirectory.java now has 'import filetypes.Directory' and 'import filetypes.FileObject'. 'import filetypes.File' was not needed in ChangeDirectory.java. Hence, it was not included.
+
+PLEASE DOUBLE CHECK IF YOUR CLASS IS STILL WORKING. IF SOMETHING IS BROKEN AT THIS POINT IT IS BECAUSE OF A CLASS NOT BEING IMPORTED.
+------------------------------------------------------------------------
+r186 | biswas19@UTORONTO.CA | 2018-11-05 12:55:25 -0500 (Mon, 05 Nov 2018) | 1 line
+
+Fixed Jshell and exit not working
+------------------------------------------------------------------------
+r185 | dodavid2@UTORONTO.CA | 2018-11-04 19:41:48 -0500 (Sun, 04 Nov 2018) | 1 line
+
+Added a dummy class called Exit. -David Do
+------------------------------------------------------------------------
+r184 | kamales8@UTORONTO.CA | 2018-11-04 01:01:39 -0400 (Sun, 04 Nov 2018) | 1 line
+
+sprint 3 added
+------------------------------------------------------------------------
+r183 | biswas19@UTORONTO.CA | 2018-11-04 00:00:17 -0400 (Sun, 04 Nov 2018) | 1 line
+
+Added scrum for nov 3
+------------------------------------------------------------------------
+r182 | dodavid2@UTORONTO.CA | 2018-11-03 23:56:41 -0400 (Sat, 03 Nov 2018) | 1 line
+
+Added my scrum report for November 3rd.
+------------------------------------------------------------------------
+r181 | somasu22@UTORONTO.CA | 2018-11-03 23:55:12 -0400 (Sat, 03 Nov 2018) | 1 line
+
+finished scrum meeting
+------------------------------------------------------------------------
+r180 | somasu22@UTORONTO.CA | 2018-11-03 23:45:48 -0400 (Sat, 03 Nov 2018) | 1 line
+
+finished scrum meeting
+------------------------------------------------------------------------
+r179 | biswas19@UTORONTO.CA | 2018-11-03 22:29:50 -0400 (Sat, 03 Nov 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r178 | dodavid2@UTORONTO.CA | 2018-11-03 15:24:55 -0400 (Sat, 03 Nov 2018) | 1 line
+
+Added multiple file support for Cat. -David Do
+------------------------------------------------------------------------
+r177 | somasu22@UTORONTO.CA | 2018-11-03 15:03:27 -0400 (Sat, 03 Nov 2018) | 1 line
+
+updated Directory CheckDir
+------------------------------------------------------------------------
+r176 | somasu22@UTORONTO.CA | 2018-11-03 14:46:22 -0400 (Sat, 03 Nov 2018) | 1 line
+
+changed Directory checkDir
+------------------------------------------------------------------------
+r175 | somasu22@UTORONTO.CA | 2018-11-03 14:09:58 -0400 (Sat, 03 Nov 2018) | 1 line
+
+reorganized code in MakeDirectory
+------------------------------------------------------------------------
+r174 | somasu22@UTORONTO.CA | 2018-11-03 13:07:37 -0400 (Sat, 03 Nov 2018) | 1 line
+
+fixed another bug in MakeDirectory
+------------------------------------------------------------------------
+r173 | somasu22@UTORONTO.CA | 2018-11-03 13:04:15 -0400 (Sat, 03 Nov 2018) | 1 line
+
+fixed Make
+------------------------------------------------------------------------
+r172 | dodavid2@UTORONTO.CA | 2018-11-03 12:35:06 -0400 (Sat, 03 Nov 2018) | 1 line
+
+Fixed a small mistake in Cat.
+------------------------------------------------------------------------
+r171 | biswas19@UTORONTO.CA | 2018-11-03 12:29:57 -0400 (Sat, 03 Nov 2018) | 2 lines
+
+Added cat to Hashmap
+
+------------------------------------------------------------------------
+r170 | dodavid2@UTORONTO.CA | 2018-11-03 12:21:44 -0400 (Sat, 03 Nov 2018) | 1 line
+
+Added the first version of Cat class to the commands folder. Removed old imports from Echo class. -David Do
+------------------------------------------------------------------------
+r169 | biswas19@UTORONTO.CA | 2018-10-31 22:00:37 -0400 (Wed, 31 Oct 2018) | 1 line
+
+Sprint 3 is now completed. All tasks are assigned/re-assigned. All of the uncompleted tasks from sprint 1 and sprint 2 are still assigned to who they were originally assigned to. If you need clarification please ask Arunav. THE ONLY NEW TASK IS MAKING THE CONCATENATE CLASS - ASSIGNED TO DAVID DO.
+------------------------------------------------------------------------
+r168 | dodavid2@UTORONTO.CA | 2018-10-31 19:48:15 -0400 (Wed, 31 Oct 2018) | 1 line
+
+added mockExecute to MakeDirectory class -David Do
+------------------------------------------------------------------------
+r167 | dodavid2@UTORONTO.CA | 2018-10-31 18:56:30 -0400 (Wed, 31 Oct 2018) | 1 line
+
+Added the parseFilePath method in Parser
+------------------------------------------------------------------------
+r166 | dodavid2@UTORONTO.CA | 2018-10-31 18:33:44 -0400 (Wed, 31 Oct 2018) | 1 line
+
+Organized CRC cards into folders, added the Parser CRC card.
+------------------------------------------------------------------------
+r165 | dodavid2@UTORONTO.CA | 2018-10-31 18:25:07 -0400 (Wed, 31 Oct 2018) | 1 line
+
+Integrated Parser into JShell.
+------------------------------------------------------------------------
+r164 | dodavid2@UTORONTO.CA | 2018-10-31 18:24:12 -0400 (Wed, 31 Oct 2018) | 1 line
+
+Added the Parser Class to the drivers folder, to easily parse input from JShell. -David Do
+------------------------------------------------------------------------
+r163 | dodavid2@UTORONTO.CA | 2018-10-31 18:16:35 -0400 (Wed, 31 Oct 2018) | 1 line
+
+JShell now uses Directory.getCurrDirPathName, the Echo method checkDir has been moved to the Directory class as a instance method. -David Do
+------------------------------------------------------------------------
+r162 | dodavid2@UTORONTO.CA | 2018-10-31 15:05:51 -0400 (Wed, 31 Oct 2018) | 1 line
+
+Tested Echo using JShell main, and fixed bugs with Echo, added new static methods getCurrDirName and getCurrDirPathName for Directory class. -David Do
+------------------------------------------------------------------------
+r161 | biswas19@UTORONTO.CA | 2018-10-31 15:00:08 -0400 (Wed, 31 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r160 | biswas19@UTORONTO.CA | 2018-10-31 14:35:12 -0400 (Wed, 31 Oct 2018) | 2 lines
+
+Fixed our compileAndRun script (run.sh). Fixed ShellHistory.java (it should be unbreakable now :) ).
+
+------------------------------------------------------------------------
+r159 | somasu22@UTORONTO.CA | 2018-10-31 13:48:49 -0400 (Wed, 31 Oct 2018) | 1 line
+
+deleted file with wrong name for the october27 scrum meeting
+------------------------------------------------------------------------
+r158 | somasu22@UTORONTO.CA | 2018-10-31 13:47:33 -0400 (Wed, 31 Oct 2018) | 1 line
+
+renamed scrum meeting of October27 to sprint 2
+------------------------------------------------------------------------
+r157 | biswas19@UTORONTO.CA | 2018-10-31 13:47:19 -0400 (Wed, 31 Oct 2018) | 1 line
+
+Changed file name biswas19Sprtin3October30 to biswas19Sprint2October
+------------------------------------------------------------------------
+r156 | dodavid2@UTORONTO.CA | 2018-10-31 13:47:00 -0400 (Wed, 31 Oct 2018) | 1 line
+
+Changed my October 27 Sprint textfile to correctly display the right sprint number. -David Do
+------------------------------------------------------------------------
+r155 | dodavid2@UTORONTO.CA | 2018-10-31 13:43:39 -0400 (Wed, 31 Oct 2018) | 1 line
+
+Added the File CRC card to the crcCards folder. -David Do
+------------------------------------------------------------------------
+r154 | biswas19@UTORONTO.CA | 2018-10-31 13:42:07 -0400 (Wed, 31 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r153 | dodavid2@UTORONTO.CA | 2018-10-31 13:40:23 -0400 (Wed, 31 Oct 2018) | 1 line
+
+Removed commented try catch inside Echo class method editFile -David Do
+------------------------------------------------------------------------
+r152 | somasu22@UTORONTO.CA | 2018-10-30 23:45:22 -0400 (Tue, 30 Oct 2018) | 1 line
+
+finished scrum meeting
+------------------------------------------------------------------------
+r151 | dodavid2@UTORONTO.CA | 2018-10-30 23:11:49 -0400 (Tue, 30 Oct 2018) | 1 line
+
+Added my Sprint report for October 30 -David Do
+------------------------------------------------------------------------
+r150 | kamales8@UTORONTO.CA | 2018-10-30 22:33:59 -0400 (Tue, 30 Oct 2018) | 1 line
+
+Daily Scrum Meeting update
+------------------------------------------------------------------------
+r149 | kamales8@UTORONTO.CA | 2018-10-30 22:22:37 -0400 (Tue, 30 Oct 2018) | 1 line
+
+created a textfile to for user manual
+------------------------------------------------------------------------
+r148 | biswas19@UTORONTO.CA | 2018-10-30 22:18:02 -0400 (Tue, 30 Oct 2018) | 1 line
+
+Fixed hashmap. fixed some stuff in ShellHistory, some things still make it crash though. Added dailyScrum for oct30th
+------------------------------------------------------------------------
+r147 | somasu22@UTORONTO.CA | 2018-10-30 20:52:53 -0400 (Tue, 30 Oct 2018) | 1 line
+
+added function in Directory; properly indented FileObject; updated MakeDir error handling
+------------------------------------------------------------------------
+r146 | dodavid2@UTORONTO.CA | 2018-10-30 20:05:07 -0400 (Tue, 30 Oct 2018) | 1 line
+
+Added JavaDoc comments to Echo class. -David Do
+------------------------------------------------------------------------
+r145 | biswas19@UTORONTO.CA | 2018-10-30 19:50:38 -0400 (Tue, 30 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r144 | biswas19@UTORONTO.CA | 2018-10-30 19:48:50 -0400 (Tue, 30 Oct 2018) | 1 line
+
+Added ShellHistory.java to commands
+------------------------------------------------------------------------
+r143 | biswas19@UTORONTO.CA | 2018-10-30 19:44:12 -0400 (Tue, 30 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r142 | kamales8@UTORONTO.CA | 2018-10-30 19:43:07 -0400 (Tue, 30 Oct 2018) | 1 line
+
+changed pwd to work from Diectory instead of Jshell
+------------------------------------------------------------------------
+r141 | kamales8@UTORONTO.CA | 2018-10-30 19:28:44 -0400 (Tue, 30 Oct 2018) | 1 line
+
+Hshmap has been updated with pwd mapping
+------------------------------------------------------------------------
+r140 | kamales8@UTORONTO.CA | 2018-10-30 18:35:16 -0400 (Tue, 30 Oct 2018) | 1 line
+
+Pwd command
+------------------------------------------------------------------------
+r139 | somasu22@UTORONTO.CA | 2018-10-30 15:37:41 -0400 (Tue, 30 Oct 2018) | 1 line
+
+did error handling for MakeDirectory
+------------------------------------------------------------------------
+r138 | somasu22@UTORONTO.CA | 2018-10-30 15:28:51 -0400 (Tue, 30 Oct 2018) | 1 line
+
+update ChangeDirectory with new design
+------------------------------------------------------------------------
+r137 | somasu22@UTORONTO.CA | 2018-10-30 15:25:50 -0400 (Tue, 30 Oct 2018) | 1 line
+
+changed directory stack 
+------------------------------------------------------------------------
+r136 | dodavid2@UTORONTO.CA | 2018-10-30 14:37:48 -0400 (Tue, 30 Oct 2018) | 1 line
+
+Changed JShell methods to Directory methods to accommidate design changes -David Do
+------------------------------------------------------------------------
+r135 | somasu22@UTORONTO.CA | 2018-10-30 14:30:30 -0400 (Tue, 30 Oct 2018) | 1 line
+
+added PushDirectory Class
+------------------------------------------------------------------------
+r134 | somasu22@UTORONTO.CA | 2018-10-30 14:30:15 -0400 (Tue, 30 Oct 2018) | 1 line
+
+added PopDirectory Class
+------------------------------------------------------------------------
+r133 | somasu22@UTORONTO.CA | 2018-10-30 14:30:00 -0400 (Tue, 30 Oct 2018) | 1 line
+
+changed Directory to have directoryStack
+------------------------------------------------------------------------
+r132 | somasu22@UTORONTO.CA | 2018-10-30 14:29:21 -0400 (Tue, 30 Oct 2018) | 1 line
+
+removed pushd popd as conditions(because they are classes in the hashmap now)
+------------------------------------------------------------------------
+r131 | somasu22@UTORONTO.CA | 2018-10-30 14:28:02 -0400 (Tue, 30 Oct 2018) | 1 line
+
+added pushd popd as classes 
+------------------------------------------------------------------------
+r130 | somasu22@UTORONTO.CA | 2018-10-30 13:58:30 -0400 (Tue, 30 Oct 2018) | 1 line
+
+fixed pushd popd issue
+------------------------------------------------------------------------
+r129 | somasu22@UTORONTO.CA | 2018-10-30 13:47:12 -0400 (Tue, 30 Oct 2018) | 1 line
+
+updated JShell for new design
+------------------------------------------------------------------------
+r128 | somasu22@UTORONTO.CA | 2018-10-30 13:46:41 -0400 (Tue, 30 Oct 2018) | 1 line
+
+update MakeDirectory for the new filesystem
+------------------------------------------------------------------------
+r127 | somasu22@UTORONTO.CA | 2018-10-30 13:44:14 -0400 (Tue, 30 Oct 2018) | 1 line
+
+Updated Directory for new design
+------------------------------------------------------------------------
+r126 | somasu22@UTORONTO.CA | 2018-10-30 13:39:35 -0400 (Tue, 30 Oct 2018) | 1 line
+
+update ChangeDirectory to work with new design
+------------------------------------------------------------------------
+r125 | biswas19@UTORONTO.CA | 2018-10-30 13:37:13 -0400 (Tue, 30 Oct 2018) | 1 line
+
+Making changes to Directory class, (It is going to act as the file system). AND, commented out try catch block from Echo.java
+------------------------------------------------------------------------
+r124 | dodavid2@UTORONTO.CA | 2018-10-29 21:02:48 -0400 (Mon, 29 Oct 2018) | 1 line
+
+Removed the making of a new file, and used setContents for Echo class's editFile method. -David Do
+------------------------------------------------------------------------
+r123 | biswas19@UTORONTO.CA | 2018-10-29 20:35:44 -0400 (Mon, 29 Oct 2018) | 1 line
+
+Made modifications fo JShell, Directory, ListDir, and Echo. WE NEED TO TALK ABOUT IMPLEMENTATION, things are changing
+------------------------------------------------------------------------
+r122 | somasu22@UTORONTO.CA | 2018-10-29 20:01:03 -0400 (Mon, 29 Oct 2018) | 1 line
+
+added Directory crcCard
+------------------------------------------------------------------------
+r121 | biswas19@UTORONTO.CA | 2018-10-29 19:32:39 -0400 (Mon, 29 Oct 2018) | 1 line
+
+ Changed Command.txt JShell.txt ListDirectory.txt
+------------------------------------------------------------------------
+r120 | somasu22@UTORONTO.CA | 2018-10-29 19:31:42 -0400 (Mon, 29 Oct 2018) | 1 line
+
+crc cards for my classes
+------------------------------------------------------------------------
+r119 | biswas19@UTORONTO.CA | 2018-10-29 18:40:17 -0400 (Mon, 29 Oct 2018) | 1 line
+
+Added new collaborator for Echo. Echo Collabs with ListDirectory
+------------------------------------------------------------------------
+r118 | biswas19@UTORONTO.CA | 2018-10-29 18:39:15 -0400 (Mon, 29 Oct 2018) | 1 line
+
+Changed Command.txt and added JShell.txt
+------------------------------------------------------------------------
+r117 | somasu22@UTORONTO.CA | 2018-10-29 18:38:51 -0400 (Mon, 29 Oct 2018) | 1 line
+
+fixed makeDirectory pathname bug
+------------------------------------------------------------------------
+r116 | somasu22@UTORONTO.CA | 2018-10-29 18:37:29 -0400 (Mon, 29 Oct 2018) | 1 line
+
+Fixed blank input issue in ChangeDirectory
+------------------------------------------------------------------------
+r115 | dodavid2@UTORONTO.CA | 2018-10-29 18:24:44 -0400 (Mon, 29 Oct 2018) | 1 line
+
+Modified checkDir to use the new Directory method getObjInDirectory. - David Do
+------------------------------------------------------------------------
+r114 | dodavid2@UTORONTO.CA | 2018-10-29 18:06:40 -0400 (Mon, 29 Oct 2018) | 1 line
+
+Finished first working copy of Echo. -David Do
+------------------------------------------------------------------------
+r113 | somasu22@UTORONTO.CA | 2018-10-29 17:36:43 -0400 (Mon, 29 Oct 2018) | 1 line
+
+JShell with Directory Stack
+------------------------------------------------------------------------
+r112 | somasu22@UTORONTO.CA | 2018-10-29 17:28:17 -0400 (Mon, 29 Oct 2018) | 1 line
+
+updated ChangeDirectory
+------------------------------------------------------------------------
+r111 | dodavid2@UTORONTO.CA | 2018-10-29 14:17:09 -0400 (Mon, 29 Oct 2018) | 1 line
+
+Added the CRC card for Echo
+------------------------------------------------------------------------
+r110 | dodavid2@UTORONTO.CA | 2018-10-27 23:32:49 -0400 (Sat, 27 Oct 2018) | 1 line
+
+Created my Sprint Log report for October 27. -David Do
+------------------------------------------------------------------------
+r109 | biswas19@UTORONTO.CA | 2018-10-27 23:29:29 -0400 (Sat, 27 Oct 2018) | 1 line
+
+made changes to ListDir to work with new changes in ChangeDir. However, i think theres a bug in getDirInPath where it returns null
+------------------------------------------------------------------------
+r108 | biswas19@UTORONTO.CA | 2018-10-27 23:27:08 -0400 (Sat, 27 Oct 2018) | 1 line
+
+Added daily scrum 3
+------------------------------------------------------------------------
+r107 | dodavid2@UTORONTO.CA | 2018-10-27 23:26:38 -0400 (Sat, 27 Oct 2018) | 1 line
+
+Created my Sprint Log report for October 27. -David Do
+------------------------------------------------------------------------
+r106 | dodavid2@UTORONTO.CA | 2018-10-27 23:24:46 -0400 (Sat, 27 Oct 2018) | 1 line
+
+Changed getDirinDirectory into getObjInDirectory, and supposed the return of FileObjects instead of Directories. -David Do
+------------------------------------------------------------------------
+r105 | kamales8@UTORONTO.CA | 2018-10-27 23:11:55 -0400 (Sat, 27 Oct 2018) | 1 line
+
+October 27th's log
+------------------------------------------------------------------------
+r104 | somasu22@UTORONTO.CA | 2018-10-27 22:53:03 -0400 (Sat, 27 Oct 2018) | 1 line
+
+finished meeting
+------------------------------------------------------------------------
+r103 | somasu22@UTORONTO.CA | 2018-10-27 19:52:28 -0400 (Sat, 27 Oct 2018) | 1 line
+
+Added DirectoryStack
+------------------------------------------------------------------------
+r102 | somasu22@UTORONTO.CA | 2018-10-27 19:51:47 -0400 (Sat, 27 Oct 2018) | 1 line
+
+made method to find a file object in Directory
+------------------------------------------------------------------------
+r101 | somasu22@UTORONTO.CA | 2018-10-27 19:51:08 -0400 (Sat, 27 Oct 2018) | 2 lines
+
+change ChangeDirectory
+
+------------------------------------------------------------------------
+r100 | somasu22@UTORONTO.CA | 2018-10-27 17:51:41 -0400 (Sat, 27 Oct 2018) | 1 line
+
+changed Directory object
+------------------------------------------------------------------------
+r99 | somasu22@UTORONTO.CA | 2018-10-27 13:17:54 -0400 (Sat, 27 Oct 2018) | 1 line
+
+edited ChangeDirectory to handle ., ..
+------------------------------------------------------------------------
+r98 | dodavid2@UTORONTO.CA | 2018-10-26 14:18:15 -0400 (Fri, 26 Oct 2018) | 1 line
+
+Changed getDirinDirectory into getObjInDirectory, and supposed the return of FileObjects instead of Directories. -David Do
+------------------------------------------------------------------------
+r97 | biswas19@UTORONTO.CA | 2018-10-26 13:56:36 -0400 (Fri, 26 Oct 2018) | 1 line
+
+SVN demo: reverting back to previous
+------------------------------------------------------------------------
+r96 | biswas19@UTORONTO.CA | 2018-10-26 13:30:47 -0400 (Fri, 26 Oct 2018) | 1 line
+
+SVN DEMO: saw that somethign was merged. Fixed.
+------------------------------------------------------------------------
+r95 | biswas19@UTORONTO.CA | 2018-10-26 13:29:37 -0400 (Fri, 26 Oct 2018) | 1 line
+
+SVN DEMO: Fixed merge, added one line after another.
+------------------------------------------------------------------------
+r94 | biswas19@UTORONTO.CA | 2018-10-26 13:26:49 -0400 (Fri, 26 Oct 2018) | 1 line
+
+SVN DEMO: cahgned cat to cats
+------------------------------------------------------------------------
+r93 | biswas19@UTORONTO.CA | 2018-10-26 13:25:34 -0400 (Fri, 26 Oct 2018) | 1 line
+
+SVN DEMO: added a.txt
+------------------------------------------------------------------------
+r92 | biswas19@UTORONTO.CA | 2018-10-26 13:22:00 -0400 (Fri, 26 Oct 2018) | 1 line
+
+Svn demo  
+------------------------------------------------------------------------
+r91 | biswas19@UTORONTO.CA | 2018-10-25 12:07:20 -0400 (Thu, 25 Oct 2018) | 1 line
+
+Fixed issues with ListDirectory. However ls does not work with direectory that is further back. ie. if current dir is '/A/a'. 'ls /A' does not work.
+------------------------------------------------------------------------
+r90 | biswas19@UTORONTO.CA | 2018-10-25 02:03:41 -0400 (Thu, 25 Oct 2018) | 2 lines
+
+Finished ls. Some cases don't work. ie. ls dirThatExists/dirThatDoesNOTexist crashes the program. ie. dirThatDoesNotExist/DirThatDoesNotExist2 works for some reason ? ie. dirThatExists/dirThatExists2/dirThatDoesNotExists crashes the program.
+
+------------------------------------------------------------------------
+r89 | dodavid2@UTORONTO.CA | 2018-10-24 22:51:07 -0400 (Wed, 24 Oct 2018) | 2 lines
+
+Completed checkDir method for Echo class.
+ -David Do
+------------------------------------------------------------------------
+r88 | dodavid2@UTORONTO.CA | 2018-10-24 21:24:48 -0400 (Wed, 24 Oct 2018) | 3 lines
+
+Completed code for createFile, but I am blocked on using ListDirectory for editFile
+
+ -David Do
+------------------------------------------------------------------------
+r87 | dodavid2@UTORONTO.CA | 2018-10-24 20:54:46 -0400 (Wed, 24 Oct 2018) | 4 lines
+
+Added a comment for File class.
+Added createFile and editFile methods and updated validate method for
+Echo class. Now I am waiting on ListDirectory to be completed.
+ -David Do
+------------------------------------------------------------------------
+r86 | biswas19@UTORONTO.CA | 2018-10-24 20:26:12 -0400 (Wed, 24 Oct 2018) | 1 line
+
+Removed unsightly printing of 'ls' 
+------------------------------------------------------------------------
+r85 | dodavid2@UTORONTO.CA | 2018-10-24 20:16:09 -0400 (Wed, 24 Oct 2018) | 2 lines
+
+Added another constructor method for File.java that allows for contents
+to be put in as well, also added this to every instanced variable. -David Do
+------------------------------------------------------------------------
+r84 | biswas19@UTORONTO.CA | 2018-10-24 20:13:15 -0400 (Wed, 24 Oct 2018) | 1 line
+
+Commented out debug statements from MakeDir
+------------------------------------------------------------------------
+r83 | biswas19@UTORONTO.CA | 2018-10-24 20:05:14 -0400 (Wed, 24 Oct 2018) | 1 line
+
+removed debug print statements, and made things look neater
+------------------------------------------------------------------------
+r82 | biswas19@UTORONTO.CA | 2018-10-24 19:54:40 -0400 (Wed, 24 Oct 2018) | 1 line
+
+Finished ls. However 'ls /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin' does not work yet
+------------------------------------------------------------------------
+r81 | biswas19@UTORONTO.CA | 2018-10-24 16:57:24 -0400 (Wed, 24 Oct 2018) | 1 line
+
+Tasks are assigned. Please check Sprint2Backlog.txt. There are also some comments/notes, I put them there as things to keep in mind while working on your tasks. I also forgot to assign I) last Sprint. Hence I will complete it this sprint. NOTE: For this sprint the main focus is crcCards
+------------------------------------------------------------------------
+r80 | biswas19@UTORONTO.CA | 2018-10-24 16:30:15 -0400 (Wed, 24 Oct 2018) | 1 line
+
+Sprint 2 is nearly complete. I need to write sub-tasks for one more user story, and then assign roles to everyone
+------------------------------------------------------------------------
+r79 | biswas19@UTORONTO.CA | 2018-10-24 14:27:34 -0400 (Wed, 24 Oct 2018) | 1 line
+
+I forgot to commit my sprint last night :( 
+------------------------------------------------------------------------
+r78 | biswas19@UTORONTO.CA | 2018-10-24 00:08:42 -0400 (Wed, 24 Oct 2018) | 1 line
+
+Skeleton for ListDirectory is complete, BUT it does not work. its probably rampant with syntax error. those will be fixed tomorrow by 4PM
+------------------------------------------------------------------------
+r77 | somasu22@UTORONTO.CA | 2018-10-23 23:37:41 -0400 (Tue, 23 Oct 2018) | 1 line
+
+updated scrum summary
+------------------------------------------------------------------------
+r76 | somasu22@UTORONTO.CA | 2018-10-23 23:36:13 -0400 (Tue, 23 Oct 2018) | 1 line
+
+completed scrum meeting
+------------------------------------------------------------------------
+r75 | biswas19@UTORONTO.CA | 2018-10-23 23:19:05 -0400 (Tue, 23 Oct 2018) | 1 line
+
+Added my 2nd scrum 'meeting' update
+------------------------------------------------------------------------
+r74 | biswas19@UTORONTO.CA | 2018-10-23 22:58:21 -0400 (Tue, 23 Oct 2018) | 1 line
+
+I made a super small change to echo. Echo.execute() just needed a value to return. I uncommented the debugging string to solve this. I did this just so that the code would compile
+------------------------------------------------------------------------
+r73 | somasu22@UTORONTO.CA | 2018-10-23 19:43:22 -0400 (Tue, 23 Oct 2018) | 2 lines
+
+finished ChangeDirectory
+
+------------------------------------------------------------------------
+r72 | somasu22@UTORONTO.CA | 2018-10-23 19:05:56 -0400 (Tue, 23 Oct 2018) | 1 line
+
+mostly finished ChangeDirectory
+------------------------------------------------------------------------
+r71 | dodavid2@UTORONTO.CA | 2018-10-23 19:02:11 -0400 (Tue, 23 Oct 2018) | 1 line
+
+Wrote my October 23 sprint report, fixed a typo in my October 20 report. -David Do
+------------------------------------------------------------------------
+r70 | dodavid2@UTORONTO.CA | 2018-10-23 18:47:34 -0400 (Tue, 23 Oct 2018) | 1 line
+
+Added student #, utorid, and author name to JShell -David Do
+------------------------------------------------------------------------
+r69 | dodavid2@UTORONTO.CA | 2018-10-23 13:11:34 -0400 (Tue, 23 Oct 2018) | 1 line
+
+Added more indepth code for Echo, and made to versions of append for File class. -David Do
+------------------------------------------------------------------------
+r68 | somasu22@UTORONTO.CA | 2018-10-23 07:26:11 -0400 (Tue, 23 Oct 2018) | 1 line
+
+updated filesystem
+------------------------------------------------------------------------
+r67 | somasu22@UTORONTO.CA | 2018-10-23 07:25:21 -0400 (Tue, 23 Oct 2018) | 1 line
+
+modified JShell
+------------------------------------------------------------------------
+r66 | somasu22@UTORONTO.CA | 2018-10-23 07:24:57 -0400 (Tue, 23 Oct 2018) | 1 line
+
+finished most of change and make directory
+------------------------------------------------------------------------
+r65 | somasu22@UTORONTO.CA | 2018-10-23 02:59:36 -0400 (Tue, 23 Oct 2018) | 1 line
+
+Changed Directory class structure
+------------------------------------------------------------------------
+r64 | somasu22@UTORONTO.CA | 2018-10-23 02:41:39 -0400 (Tue, 23 Oct 2018) | 1 line
+
+Changed Filesystem and incorporated inheritance
+------------------------------------------------------------------------
+r63 | biswas19@UTORONTO.CA | 2018-10-22 20:03:18 -0400 (Mon, 22 Oct 2018) | 1 line
+
+Edited Hashmap and Jshell. Jshell now has two static vars, currDir and rootDir. Hashmap has an getter function now, allows for a more streamlined use of the class.
+------------------------------------------------------------------------
+r62 | somasu22@UTORONTO.CA | 2018-10-22 18:08:24 -0400 (Mon, 22 Oct 2018) | 1 line
+
+updated change directory
+------------------------------------------------------------------------
+r61 | somasu22@UTORONTO.CA | 2018-10-21 00:07:48 -0400 (Sun, 21 Oct 2018) | 1 line
+
+changed directory constructor
+------------------------------------------------------------------------
+r60 | somasu22@UTORONTO.CA | 2018-10-21 00:06:05 -0400 (Sun, 21 Oct 2018) | 1 line
+
+changed directory constructor
+------------------------------------------------------------------------
+r59 | dodavid2@UTORONTO.CA | 2018-10-20 23:56:46 -0400 (Sat, 20 Oct 2018) | 1 line
+
+Added skeleton for Echo, File, and wrote my spring backlog. -David Do
+------------------------------------------------------------------------
+r58 | somasu22@UTORONTO.CA | 2018-10-20 23:46:26 -0400 (Sat, 20 Oct 2018) | 1 line
+
+finished scrum meeting
+------------------------------------------------------------------------
+r57 | somasu22@UTORONTO.CA | 2018-10-20 23:42:16 -0400 (Sat, 20 Oct 2018) | 1 line
+
+finished ChangeDirectory with pathnames
+------------------------------------------------------------------------
+r56 | kamales8@UTORONTO.CA | 2018-10-20 22:39:22 -0400 (Sat, 20 Oct 2018) | 1 line
+
+First Sprint
+------------------------------------------------------------------------
+r55 | biswas19@UTORONTO.CA | 2018-10-20 17:51:12 -0400 (Sat, 20 Oct 2018) | 1 line
+
+Added my DailyScrum log
+------------------------------------------------------------------------
+r54 | somasu22@UTORONTO.CA | 2018-10-20 11:00:12 -0400 (Sat, 20 Oct 2018) | 1 line
+
+updated Directory class
+------------------------------------------------------------------------
+r53 | somasu22@UTORONTO.CA | 2018-10-20 10:56:49 -0400 (Sat, 20 Oct 2018) | 1 line
+
+updated Directory class
+------------------------------------------------------------------------
+r52 | biswas19@UTORONTO.CA | 2018-10-19 21:54:27 -0400 (Fri, 19 Oct 2018) | 1 line
+
+Everything works now. We should be able to start on a skeleton of how our assignment should work
+------------------------------------------------------------------------
+r51 | biswas19@UTORONTO.CA | 2018-10-19 21:09:56 -0400 (Fri, 19 Oct 2018) | 1 line
+
+ YASSSSSSSS, EVERYTHING FINALLY COMPILES :'D. Fixed inheritance issues for all classes. Made new CommandManual class for \'man\'. Edited JShell to work with a Hashmap from HashmapCom class. 
+------------------------------------------------------------------------
+r50 | biswas19@UTORONTO.CA | 2018-10-19 20:11:22 -0400 (Fri, 19 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r49 | biswas19@UTORONTO.CA | 2018-10-19 19:15:53 -0400 (Fri, 19 Oct 2018) | 1 line
+
+Made hashmap class and edited JShell
+------------------------------------------------------------------------
+r48 | somasu22@UTORONTO.CA | 2018-10-19 18:44:53 -0400 (Fri, 19 Oct 2018) | 1 line
+
+updated sprint backlog
+------------------------------------------------------------------------
+r47 | biswas19@UTORONTO.CA | 2018-10-19 18:31:44 -0400 (Fri, 19 Oct 2018) | 1 line
+
+made edits to sprint
+------------------------------------------------------------------------
+r46 | somasu22@UTORONTO.CA | 2018-10-19 18:29:30 -0400 (Fri, 19 Oct 2018) | 1 line
+
+completed the program setup
+------------------------------------------------------------------------
+r45 | biswas19@UTORONTO.CA | 2018-10-19 18:13:06 -0400 (Fri, 19 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r44 | biswas19@UTORONTO.CA | 2018-10-19 18:09:31 -0400 (Fri, 19 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r43 | dodavid2@UTORONTO.CA | 2018-10-19 18:06:39 -0400 (Fri, 19 Oct 2018) | 1 line
+
+Add skeleton code for ListDirectory
+------------------------------------------------------------------------
+r42 | biswas19@UTORONTO.CA | 2018-10-19 17:41:02 -0400 (Fri, 19 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r41 | biswas19@UTORONTO.CA | 2018-10-19 17:32:12 -0400 (Fri, 19 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r40 | biswas19@UTORONTO.CA | 2018-10-19 17:18:17 -0400 (Fri, 19 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r39 | biswas19@UTORONTO.CA | 2018-10-19 17:16:56 -0400 (Fri, 19 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r38 | biswas19@UTORONTO.CA | 2018-10-19 17:14:37 -0400 (Fri, 19 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r37 | biswas19@UTORONTO.CA | 2018-10-19 16:58:00 -0400 (Fri, 19 Oct 2018) | 1 line
+
+Made a script for compile and run
+------------------------------------------------------------------------
+r36 | biswas19@UTORONTO.CA | 2018-10-19 16:48:55 -0400 (Fri, 19 Oct 2018) | 1 line
+
+Added bin
+------------------------------------------------------------------------
+r35 | biswas19@UTORONTO.CA | 2018-10-19 16:36:25 -0400 (Fri, 19 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r34 | biswas19@UTORONTO.CA | 2018-10-19 15:48:30 -0400 (Fri, 19 Oct 2018) | 1 line
+
+Added classes: cd, echo, ls
+------------------------------------------------------------------------
+r33 | biswas19@UTORONTO.CA | 2018-10-19 15:44:50 -0400 (Fri, 19 Oct 2018) | 1 line
+
+Added MakeDirectory class
+------------------------------------------------------------------------
+r32 | biswas19@UTORONTO.CA | 2018-10-19 15:43:07 -0400 (Fri, 19 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r31 | biswas19@UTORONTO.CA | 2018-10-19 15:41:06 -0400 (Fri, 19 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r30 | dodavid2@UTORONTO.CA | 2018-10-19 15:39:11 -0400 (Fri, 19 Oct 2018) | 1 line
+
+Moved Directory to new folder called filetypes
+------------------------------------------------------------------------
+r29 | dodavid2@UTORONTO.CA | 2018-10-19 15:37:11 -0400 (Fri, 19 Oct 2018) | 1 line
+
+Added abstract folder commands and Command
+------------------------------------------------------------------------
+r28 | somasu22@UTORONTO.CA | 2018-10-19 15:36:54 -0400 (Fri, 19 Oct 2018) | 1 line
+
+added Directory class
+------------------------------------------------------------------------
+r27 | somasu22@UTORONTO.CA | 2018-10-19 15:35:17 -0400 (Fri, 19 Oct 2018) | 1 line
+
+added honor code
+------------------------------------------------------------------------
+r26 | biswas19@UTORONTO.CA | 2018-10-19 15:29:28 -0400 (Fri, 19 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r25 | biswas19@UTORONTO.CA | 2018-10-19 12:52:02 -0400 (Fri, 19 Oct 2018) | 1 line
+
+Renamed Jshel to Command
+------------------------------------------------------------------------
+r24 | biswas19@UTORONTO.CA | 2018-10-19 12:34:14 -0400 (Fri, 19 Oct 2018) | 1 line
+
+Made Jshell crcCard
+------------------------------------------------------------------------
+r23 | biswas19@UTORONTO.CA | 2018-10-17 23:15:30 -0400 (Wed, 17 Oct 2018) | 1 line
+
+Corrected some formatting in Sptring1Backlog.txt
+------------------------------------------------------------------------
+r22 | biswas19@UTORONTO.CA | 2018-10-17 22:45:58 -0400 (Wed, 17 Oct 2018) | 1 line
+
+Renamed sprint1Backlog.txt to Sprint1Backlog.txt
+------------------------------------------------------------------------
+r21 | biswas19@UTORONTO.CA | 2018-10-17 22:43:59 -0400 (Wed, 17 Oct 2018) | 1 line
+
+Finished our first sprint backlog. Everyone has their roles now
+------------------------------------------------------------------------
+r20 | somasu22@UTORONTO.CA | 2018-10-17 21:59:53 -0400 (Wed, 17 Oct 2018) | 1 line
+
+modified productBacklog
+------------------------------------------------------------------------
+r19 | somasu22@UTORONTO.CA | 2018-10-17 21:54:59 -0400 (Wed, 17 Oct 2018) | 1 line
+
+modified productBacklog
+------------------------------------------------------------------------
+r18 | biswas19@UTORONTO.CA | 2018-10-17 21:52:35 -0400 (Wed, 17 Oct 2018) | 1 line
+
+added sprint1Backlog.txt
+------------------------------------------------------------------------
+r17 | biswas19@UTORONTO.CA | 2018-10-17 19:32:18 -0400 (Wed, 17 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r15 | biswas19@UTORONTO.CA | 2018-10-17 17:04:01 -0400 (Wed, 17 Oct 2018) | 1 line
+
+forgot about man CMD, now productBacklog.txt is finished
+------------------------------------------------------------------------
+r14 | biswas19@UTORONTO.CA | 2018-10-17 17:00:32 -0400 (Wed, 17 Oct 2018) | 1 line
+
+Finished productBacklog.txt
+------------------------------------------------------------------------
+r13 | biswas19@UTORONTO.CA | 2018-10-17 15:50:02 -0400 (Wed, 17 Oct 2018) | 1 line
+
+Added user story for pushd and popd
+------------------------------------------------------------------------
+r12 | biswas19@UTORONTO.CA | 2018-10-16 23:51:32 -0400 (Tue, 16 Oct 2018) | 1 line
+
+Added pdw, and ls
+------------------------------------------------------------------------
+r11 | biswas19@UTORONTO.CA | 2018-10-16 23:05:02 -0400 (Tue, 16 Oct 2018) | 1 line
+
+changed some stuff to be more like a 'story'. Added cd (change directory).
+------------------------------------------------------------------------
+r10 | biswas19@UTORONTO.CA | 2018-10-16 22:18:02 -0400 (Tue, 16 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+r9 | biswas19@UTORONTO.CA | 2018-10-16 22:03:03 -0400 (Tue, 16 Oct 2018) | 1 line
+
+ I made Assignment2/productBacklog/productBacklogFor2A.txt. I put added 3 backlog items (error handle, exit, and mkdir)
+------------------------------------------------------------------------
+r7 | attarwal@UTORONTO.CA | 2018-10-16 05:03:00 -0400 (Tue, 16 Oct 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r6 | attarwal@UTORONTO.CA | 2018-10-16 05:02:59 -0400 (Tue, 16 Oct 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r5 | attarwal@UTORONTO.CA | 2018-10-16 05:02:58 -0400 (Tue, 16 Oct 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r4 | attarwal@UTORONTO.CA | 2018-10-16 05:02:57 -0400 (Tue, 16 Oct 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r3 | attarwal@UTORONTO.CA | 2018-10-16 05:02:56 -0400 (Tue, 16 Oct 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r2 | attarwal@UTORONTO.CA | 2018-10-16 05:02:55 -0400 (Tue, 16 Oct 2018) | 1 line
+
+Starter code by instructor
+------------------------------------------------------------------------
+r1 | Markus | 2018-10-16 04:58:23 -0400 (Tue, 16 Oct 2018) | 1 line
+
+
+------------------------------------------------------------------------
+
+
+
+Part 3) +++Work Distribution of Team Members+++
++++ON ALL SOURCE FILES+++
+  21 attarwal@U
+ 595 biswas19@U
+ 437 dodavid2@U
+ 187 kamales8@U
+ 511 somasu22@U
++++ON CRC CARDS+++
+   9 attarwal@U
++++ON DAILYSCRUMMEETINGS+++
+  41 attarwal@U
+ 122 biswas19@U
+  75 dodavid2@U
+  56 kamales8@U
+  64 somasu22@U
++++ON PRODUCT BACKLOG +++
+  11 attarwal@U
+  61 biswas19@U
+   4 dodavid2@U
+  10 somasu22@U
++++ON SPRINTS+++
+  68 attarwal@U
+ 272 biswas19@U
+  19 dodavid2@U
+   5 somasu22@U
+33399
+Part 4) SVN Commits
+
+
+On Sprints
+   1  attarwal@UTORONTO.CA 
+  11  biswas19@UTORONTO.CA 
+   1  dodavid2@UTORONTO.CA 
+   1  somasu22@UTORONTO.CA 
+
+
+On CRC Cards
+   1  attarwal@UTORONTO.CA 
+   8  biswas19@UTORONTO.CA 
+   4  dodavid2@UTORONTO.CA 
+   1  kamales8@UTORONTO.CA 
+   2  somasu22@UTORONTO.CA 
+
+
+On DailyScrumMeetings
+   1  attarwal@UTORONTO.CA 
+   7  biswas19@UTORONTO.CA 
+   8  dodavid2@UTORONTO.CA 
+   4  kamales8@UTORONTO.CA 
+   9  somasu22@UTORONTO.CA 
+
+
+On ProductBacklog
+   1  attarwal@UTORONTO.CA 
+   8  biswas19@UTORONTO.CA 
+   1  dodavid2@UTORONTO.CA 
+   2  somasu22@UTORONTO.CA 
+
+
+On source
+   1  attarwal@UTORONTO.CA 
+  54  biswas19@UTORONTO.CA 
+  42  dodavid2@UTORONTO.CA 
+   8  kamales8@UTORONTO.CA 
+  60  somasu22@UTORONTO.CA 
+
